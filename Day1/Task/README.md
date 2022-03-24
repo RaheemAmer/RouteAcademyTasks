@@ -1,2 +1,2 @@
 # RouteAcademyTasks
-A repo where I will doucment my taks during my apprenticeship  at Route academy
+Day1 Task to rehearse on few simple tags like table and so on
