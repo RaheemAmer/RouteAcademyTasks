@@ -1,2 +1,2 @@
 # RouteAcademyTasks
-A repo where I will doucment my taks during my apprenticeship  at Route academy
+A repo where I will document my daily tasks during my apprenticeship at Route academy
