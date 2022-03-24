@@ -1,2 +1,2 @@
 # RouteAcademyTasks
-A repo where I will doucment my taks during my apprenticeship  at Route academy
+Day2 task which is all about form and input tags
