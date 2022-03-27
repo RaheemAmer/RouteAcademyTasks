@@ -284,3 +284,6 @@ solving float drawbacks:
 - only making an empty div and name it (clear-fix) for the naming convention (after the content that we applied float on to mark it's end)
 -  add class inside the main div that wraps the whole tags and also add to the styles in css, clear: both;
 ------------------------
+Add space (proper way)
+- add width to img => 90%
+- add text-align = center = as long there is content, text-align will work
