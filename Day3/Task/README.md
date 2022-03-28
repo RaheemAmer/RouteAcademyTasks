@@ -1,2 +1,2 @@
 # RouteAcademyTasks
-A repo where I will doucment my taks during my apprenticeship  at Route academy
+Create a mockup to this site with the things we have learned so far
