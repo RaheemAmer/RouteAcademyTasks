@@ -338,8 +338,59 @@ font:
 font size by default is 16px
 accept both pixels and percentage
 the font doesn't downgrade when we zoom in and out
-
+------------------------
 Note:
 if we give it a percentage scale, then it's gonna be related to it's original size which is 16px
+------------------------
+font-weight:
+range from 100 to 900 
+font-weight is unitless, without any unit of measuring
+default size is 400
+------------------------
+Note:
+some font families doesn't get affected when change the font size to them
+------------------------
+font style:
+font style to change it, you can choose from normal or italic
+------------------------
+font family:
+you can choose font family 
+------------------------
+Note:
+in css3, we can download the font family and refer to it internally when we make our own server without calling it from external server like google server
+------------------------
+Background:
+if the image that I want to add as a a background image is smaller than the width and the height of the div then it will be repeated 
+------------------------
+Note:
+default value is repeat
+background-repeat: no-repeat
+position of image is top left
+------------------------
+background-position can help you pick the desired position for the image works in a clockwise format
+background-position can take either text, pixels or percentages
+------------------------
 
+if the image that I want to add as a a background image is larger than the width and the height of the div then the specific coordinates written as width and height will show a specific part of the image
 
+we can control this using background-size and make image fit the parent dimensions
+background-size: 100% 100%;
+------------------------
+background cover:
+Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges
+------------------------
+background contain:
+Resize the background image to make sure the image is fully visible
+------------------------
+height:
+make height according to client's phone height using vh ( viewport height)
+1 = 1% 
+and so on
+
+after making background-size: cover or 100% 100%
+make background-position: center center
+------------------------
+Note:
+You will find that there is space up top why?
+Browser gives margin and padding to certain types of tags
+so that's why we give to all tags at first margin and padding zero 
