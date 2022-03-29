@@ -394,3 +394,30 @@ Note:
 You will find that there is space up top why?
 Browser gives margin and padding to certain types of tags
 so that's why we give to all tags at first margin and padding zero 
+
+Another solution to this margin and padding default value:
+this isn't the best solution and there is a reason why they did this in first place and also there is
+something called reboot in bootstrap that allows us to modify is without making the value equals zero
+------------------------
+Performance of loading content in the web page:
+
+link:
+https://developer.yahoo.com/performance/rules.html 
+
+minimize HTTP Request:
+every file we connect it, is considered as HTTP request
+
+To find what is the HTTP request in your webpage, find network in dev tools
+------------------------
+There is a trick, that most of us do but it's designed gor mega projects:
+Image spirit using (css spirits)
+
+We set y=up width and height for the div
+then we use background-image: url
+and then we use background-position: 75px 0px ( to traverse the whole images)
+------------------------
+alternate answer is to use image map tag
+------------------------
+Note:
+always put image in div 
+------------------------
