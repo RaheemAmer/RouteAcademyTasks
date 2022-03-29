@@ -420,4 +420,8 @@ alternate answer is to use image map tag
 ------------------------
 Note:
 always put image in div 
+always make css link the last thing in head
+if you see yourself putting over 50-60 pixels in both margin and padding then you're doing it wrong
 ------------------------
+Background-attachment:
+default value is static - if we want to make it constant while we move then we give it a fixed value
