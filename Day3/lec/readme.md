@@ -193,7 +193,7 @@ img{
 The H2 tag will float to the left like the images did even if we didn't add a class to it
 ------------------------
 but why?
-float when applied, it works on the whole page not the targeted one only and this occured when we decreased the percentage from 33.33 to 25
+float when applied, it works on the whole page not the targeted one only and this occurred when we decreased the percentage from 33.33 to 25
 ------------------------
 we add an empty div and put in css property => clear: left;
 ------------------------
@@ -278,7 +278,6 @@ so now the browser sees that the main container div has no contents which makes 
 float drawbacks:
 1- when you add float to any div, this will also include any other tags to it's floating system
 2- when you add sub class in side main class and add float to them, the sub class and it's content are removed from the container supervision which makes the browsers acts like he has no content and make his height is zero and this will remove the background color 
-
 ------------------------
 solving float drawbacks:
 - only making an empty div and name it (clear-fix) for the naming convention (after the content that we applied float on to mark it's end)
@@ -287,3 +286,60 @@ solving float drawbacks:
 Add space (proper way)
 - add width to img => 90%
 - add text-align = center = as long there is content, text-align will work
+------------------------
+Margin (shorthand) : 
+top right bottom left = clockwise
+top right ( + left ) bottom
+top ( + bottom) right ( + left )
+------------------------
+Center a div:
+margin: auto; = margin-left: auto + margin-right: auto;
+------------------------
+Note:
+In order to center the div using margin, don't forget to make it's width not full width cuz no way
+it's gonna be centred if it's full width, there is no space left to center it
+Adds width to original width
+------------------------
+Difference between text-align: center and margin: auto?
+margin: controls the div itself not the content inside of it
+text-align: controls the content inside the div
+------------------------
+Padding (shorthand) : 
+top right bottom left = clockwise
+top right ( + left ) bottom
+top ( + bottom) right ( + left )
+------------------------
+Note:
+there is nothing called padding: auto => text-align: center does this job 
+Adds width to original width
+------------------------
+Border property :
+border: 5px solid red
+
+Note:
+there is no right order for writing stuff inside of border
+Adds width to original width just ike margin and padding
+We can add border-right or left or top and bottom if we wish
+------------------------
+Very important note:
+border, margin and padding all of them affect the width and by increasing them the origin al width will increase
+------------------------
+Border-radius:
+We can make border radius to a specific area like top or bottom or right
+border-top-right-radius: 50%;
+------------------------
+Nesting selector:
+calling selector inside class
+------------------------
+Button:
+Has a default border built in
+------------------------
+font:
+font size by default is 16px
+accept both pixels and percentage
+the font doesn't downgrade when we zoom in and out
+
+Note:
+if we give it a percentage scale, then it's gonna be related to it's original size which is 16px
+
+
