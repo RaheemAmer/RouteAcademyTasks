@@ -1,0 +1,76 @@
+/* 
+.container {
+    background-image: url(/Day3/Task/Answer/images//drew-coffman-1872.jpg);
+    background-size: cover;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.nav-links {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    text-align: center;
+    background-color: grey;
+    background-image: url(/Day3/Task/Answer/images//drew-coffman-1872.jpg);
+    /* margin: 20px 60px; */
+    padding: 50px 0px;
+}
+
+#main-text {
+    color: #ffffff;
+    font-weight: thin;
+    font-size: 22px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.intro h1 {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    padding-bottom: 15px;
+}
+
+#main-paragraph {
+    color: #ffffff;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0px 450px;
+}
+
+.intro button {
+    border: none;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #8e7754;
+    margin-top: 20px;
+    margin-right: 10px;
+    line-height: 22.1px;
+    text-decoration: rgb(34, 34, 34);
+}
+
+.intro #btn-2 {
+    background-color: transparent;
+    border: 2px solid white;
+}

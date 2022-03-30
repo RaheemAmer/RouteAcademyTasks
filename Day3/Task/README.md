@@ -1,2 +1,2 @@
 # RouteAcademyTasks
-Create a mockup to this site with the things we have learned so far
+A repo where I will document my tasks during my apprenticeship  at Route academy
