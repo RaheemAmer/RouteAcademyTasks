@@ -8,7 +8,6 @@
 
 .navbar {
     margin-bottom: 4px;
-    /* background-color: black; */
     background-image: url(/Day3/Task/Answer/images/drew-coffman-1872.jpg);
     Background-size: 100% 100%;
     background-position: center center;
@@ -20,14 +19,12 @@
 /* Logo */
 
 .logo {
-    /* background-color: blueviolet; */
     width: 170px;
     height: 0px;
     display: inline-block;
 }
 
 .logo img {
-    /* background-color: red; */
     width: 150px;
     padding-top: 20px;
     padding-left: 150px;
@@ -37,7 +34,6 @@
 /* Navbar links */
 
 .nav-links ul {
-    /* background-color: red; */
     width: 100%;
 }
 
@@ -47,7 +43,6 @@
 }
 
 .nav-links ul li a {
-    /* background-color: cyan; */
     width: 50px;
     text-decoration: none;
     font-size: medium;
@@ -57,8 +52,82 @@
 }
 
 .nav-links {
-    /* background-color: black; */
     width: 75%;
     display: inline-block;
     text-align: right;
 }
+
+
+/* introduction */
+
+.introduction {
+    text-align: center;
+    padding-top: 170px;
+}
+
+.introduction h3 {
+    color: white;
+    font-weight: 100;
+    font-family: 'Alegreya', serif;
+    padding-bottom: 20px;
+}
+
+.introduction h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 65px;
+    font-family: serif;
+    padding-bottom: 30px;
+}
+
+.introduction .buttons {
+    margin-top: 20px;
+}
+
+.introduction .headline {
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+
+.introduction .btn1 {
+    color: white;
+    font-size: 13.5px;
+    font-family: serif;
+    font-weight: bold;
+    background-color: rgb(139, 119, 91);
+    border: none;
+    padding: 18px 30px;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+
+.introduction .btn2 {
+    color: white;
+    font-size: 13.5px;
+    font-family: serif;
+    font-weight: bolder;
+    background-color: rgb(139, 119, 91);
+    border: none;
+    padding: 17px 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+
+/* Animation button */
+
+.white-button {
+    margin: 70px auto;
+    border: 2px solid white;
+    border-radius: 43%;
+    height: 55px;
+    width: 35px;
+    background-color: transparent;
+}
+
+
+/* 2nd section */
