@@ -25,7 +25,7 @@ who told you that the width of whitespace between images is 1% while the space b
 
 .item {
     background-color: aquamarine;
-    width: 33%;
+    width: 32.5%;
     display: inline-block;
     text-align: center;
 }
