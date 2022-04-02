@@ -1,0 +1,51 @@
+/*
+There is whitespace between each image that adds to the div width and this affects Responsivity of the site
+there is also a huge amount of space on the right side of the images 
+*/
+
+
+/* .item {
+background-color: aquamarine;
+width: 300px;
+display: inline-block;
+} */
+
+
+/* 
+So in order to solve this we use percentage and divide 100% on 3 (the amount of images inside our div) instead of fixed width 
+
+The 33% is related to the width of the main parent which is in this case is the body tag
+
+but why 33%?
+because the whitespace here takes an amount of width so we put it 33%
+
+another problem:
+who told you that the width of whitespace between images is 1% while the space between them hold a fixed ratio and this is gonna make more troubles to us
+*/
+
+.item {
+    background-color: aquamarine;
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* Image must be reassigned because it doesn't get affected by it's parent  */
+
+
+/* 
+.item img {
+    width: 300px;
+} */
+
+
+/* 
+So in order to solve this we use percentage instead of fixed width and this is related to the main parent dimensions - so we give it's width 100%
+
+This makes it whenever the main parent shrinks, the images also shrinks with the same width 
+*/
+
+.item img {
+    width: 100%;
+}
