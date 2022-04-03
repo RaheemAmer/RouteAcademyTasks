@@ -4,7 +4,7 @@
 }
 
 
-/* Header Section */
+/* 1st - Header Section */
 
 .navbar {
     margin-bottom: 4px;
@@ -132,7 +132,7 @@
 }
 
 
-/* 2nd section */
+/* 2nd  - who we are section */
 
 .who-are-we {
     margin-left: 150px;
@@ -196,7 +196,7 @@
 }
 
 
-/* 3nd section */
+/* 3nd - our location section */
 
 .our-location {
     display: inline-block;
@@ -240,7 +240,7 @@
 }
 
 
-/* 4th section */
+/* 4th - our baking section */
 
 .our-baking {
     text-align: center;
@@ -249,7 +249,7 @@
 }
 
 .our-baking #our-baking-h3 {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 100;
     color: #636363;
     font-family: 'Alegreya ', sans-serif;
@@ -261,7 +261,8 @@
     color: #8f8f8f;
     font-weight: 900;
     font-family: 'Alegreya Sans', sans-serif;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 80px;
 }
 
 .our-baking .item #item-h3 {
@@ -289,4 +290,80 @@
 
 .item img {
     width: 100%;
+}
+
+
+/*  5th - contact information section */
+
+.contact-information {
+    display: inline-block;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.food-image {
+    display: inline-block;
+    width: 45%;
+    padding-left: 120px;
+}
+
+.food-image img {
+    width: 100%;
+    margin-top: 100px
+}
+
+.items {
+    display: inline-block;
+    margin-left: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    bottom: 150px;
+}
+
+.items h2 {
+    padding-bottom: 10px;
+    font-family: 'Alegreya', serif;
+    font-size: 35px;
+}
+
+.items p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Alegreya ', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    width: 570px;
+}
+
+.items li {
+    list-style-type: none;
+}
+
+.items li span {
+    list-style-type: none;
+    font-size: 15px;
+    font-family: 'Alegreya ', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.items ul li img {
+    vertical-align: middle;
+    padding-top: 10px;
+    width: 45px;
+}
+
+
+/* test */
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
 }
