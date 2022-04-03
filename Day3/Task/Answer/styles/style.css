@@ -134,24 +134,66 @@
 
 /* 2nd section */
 
-.food-image {
-    width: 38%;
-    background-color: aqua;
+.who-are-we {
+    margin-top: 100px;
+    margin-left: 150px;
     display: inline-block;
+}
+
+.food-image {
+    display: inline-block;
+    /* border: 2px solid red; */
 }
 
 .food-image img {
-    width: 100%;
+    width: 550px;
 }
 
-.who-are-we {
-    background-color: red;
+.items {
+    width: 580px;
     display: inline-block;
-    width: 90%;
+    margin-left: 60px;
+    /* border: 2px solid red; */
 }
 
-.who-are-we-items {
-    background-color: red;
-    display: inline-block;
-    width: 40%;
+.items h2 {
+    padding: 10px 0px;
+    font-family: 'Alegreya', serif;
+    font-size: 35px;
+    /* border: 2px solid red; */
 }
+
+.items p {
+    padding: 20px 0px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Alegreya ', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    /* border: 2px solid red; */
+}
+
+.items li {
+    list-style-type: none;
+}
+
+.items li span {
+    list-style-type: none;
+    font-size: 15px;
+    font-family: 'Alegreya ', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.items ul li img {
+    vertical-align: middle;
+    padding-top: 10px;
+    width: 45px;
+    /* border: 2px solid red; */
+}
+
+
+/* test */
