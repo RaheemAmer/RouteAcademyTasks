@@ -135,41 +135,45 @@
 /* 2nd section */
 
 .who-are-we {
-    margin-top: 100px;
     margin-left: 150px;
     display: inline-block;
 }
 
 .food-image {
     display: inline-block;
-    /* border: 2px solid red; */
+    width: 45%;
 }
 
 .food-image img {
-    width: 550px;
+    width: 100%;
+    margin-top: 100px
 }
 
 .items {
-    width: 580px;
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 80px;
     /* border: 2px solid red; */
+    padding-bottom: 80px;
+    position: relative;
+    bottom: 150px;
 }
 
 .items h2 {
-    padding: 10px 0px;
+    padding-bottom: 10px;
     font-family: 'Alegreya', serif;
     font-size: 35px;
     /* border: 2px solid red; */
 }
 
 .items p {
-    padding: 20px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 15px;
     line-height: 25px;
     font-family: 'Alegreya ', sans-serif;
     font-weight: 500;
     color: #989898;
+    width: 570px;
     /* border: 2px solid red; */
 }
 
@@ -195,7 +199,58 @@
     /* border: 2px solid red; */
 }
 
-.main {
+
+/* 3nd section */
+
+.our-location {
+    display: inline-block;
+    background-color: #f8f8f8;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.food-image2 {
+    display: inline-block;
+    width: 45%;
+    /* margin-top: 100px; */
+    /* border: 2px solid red; */
+}
+
+.food-image2 img {
+    width: 85%;
+    margin-top: 100px
+}
+
+.text {
+    width: 45%;
+    position: relative;
+    bottom: 130px;
+    display: inline-block;
+    margin-left: 100px;
+    /* border: 2px solid red; */
+    padding-bottom: 80px;
+}
+
+.text h2 {
+    padding: 10px 0px;
+    font-family: 'Alegreya', serif;
+    font-size: 35px;
+    /* border: 2px solid red; */
+}
+
+.text p {
+    padding: 20px 0px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Alegreya ', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    width: 570px;
+    /* border: 2px solid red; */
+}
+
+
+/* .main {
     text-align: center;
     margin-top: 50px;
     background-color: #f8f8f8;
@@ -210,4 +265,4 @@
 
 .item img {
     width: 100%;
-}
+} */
