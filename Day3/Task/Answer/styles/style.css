@@ -299,6 +299,7 @@
     display: inline-block;
     background-color: #f8f8f8;
     width: 100%;
+    padding-top: 90px;
 }
 
 .food-image {
@@ -356,14 +357,4 @@
     vertical-align: middle;
     padding-top: 10px;
     width: 45px;
-}
-
-
-/* test */
-
-#map {
-    height: 400px;
-    /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
 }
