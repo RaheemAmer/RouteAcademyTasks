@@ -102,6 +102,7 @@
     padding: 18px 30px;
     margin-top: 10px;
     margin-right: 7px;
+    border-radius: 5%;
 }
 
 .introduction .btn2 {
@@ -115,6 +116,7 @@
     background-color: transparent;
     border: 2px solid white;
     margin-top: 10px;
+    border-radius: 5%;
 }
 
 
@@ -131,3 +133,25 @@
 
 
 /* 2nd section */
+
+.food-image {
+    width: 38%;
+    background-color: aqua;
+    display: inline-block;
+}
+
+.food-image img {
+    width: 100%;
+}
+
+.who-are-we {
+    background-color: red;
+    display: inline-block;
+    width: 90%;
+}
+
+.who-are-we-items {
+    background-color: red;
+    display: inline-block;
+    width: 40%;
+}
