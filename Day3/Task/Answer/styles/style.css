@@ -536,3 +536,28 @@
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+
+/* last - copyrights section */
+
+.copyrights {
+    background-color: #353330;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.copyrights .social-media-icons {
+    display: inline-block;
+    border: 2px solid red;
+    width: 400px;
+    margin: 30px auto;
+}
+
+.copyrights .social-media-icons .icon {
+    display: inline-block;
+    /* border: 2px solid green; */
+    border-radius: 60%;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
