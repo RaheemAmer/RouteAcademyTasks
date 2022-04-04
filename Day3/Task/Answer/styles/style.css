@@ -299,7 +299,7 @@
     display: inline-block;
     background-color: #f8f8f8;
     width: 100%;
-    padding-top: 90px;
+    padding-top: 60px;
 }
 
 .address {
@@ -319,7 +319,8 @@
     margin-left: 80px;
     padding-bottom: 80px;
     position: relative;
-    bottom: 65px;
+    top: -80px;
+    left: 20px;
 }
 
 .items h2 {
@@ -352,13 +353,13 @@
     color: #989898;
     vertical-align: middle;
     padding-left: 5px;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .items ul li img {
-    vertical-align: middle;
-    padding-top: 10px;
-    width: 45px;
+    width: 25px;
+    height: auto;
+    padding-top: 30px;
 }
 
 
@@ -385,7 +386,7 @@
     background-color: #403d38;
     width: 100%;
     padding-top: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 
 .footer .footer-items1 {
@@ -532,8 +533,8 @@
 .footer .footer-items4 ul {
     width: 250px;
     height: 180px;
-    background-image: url("/Day3/Task/Answer/images/contact-details-map.png");
-    background-position: center center;
+    background-image: linear-gradient(rgba(64, 61, 56, 0.8), #403d38), url("/Day3/Task/Answer/images/contact-details-map.png");
+    background-position: center 50px;
     background-repeat: no-repeat;
 }
 

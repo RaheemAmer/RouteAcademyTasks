@@ -18,3 +18,6 @@ In addition, once you begin typing, many browsers will display a small ‘x’ a
 ---------------------------------------------------------------------------------------------------------
 Cool article:
 https://mobiforge.com/design-development/html5-mobile-web-forms-and-input-types 
+
+Wonderful solution:
+https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div
