@@ -384,6 +384,7 @@
 .footer {
     background-color: #403d38;
     width: 100%;
+    padding-top: 50px;
     padding-bottom: 200px;
 }
 
@@ -392,6 +393,7 @@
     display: inline-block;
     position: relative;
     left: 100px;
+    top: 20px;
 }
 
 .footer .footer-items1 li {
@@ -408,7 +410,7 @@
     color: #81807e;
     position: relative;
     line-height: 25px;
-    top: 20px;
+    top: 34px;
 }
 
 .footer .footer-items2 {
@@ -416,7 +418,7 @@
     display: inline-block;
     position: relative;
     left: 200px;
-    bottom: 28px;
+    bottom: 24px;
 }
 
 .footer .footer-items2 .line {
@@ -453,7 +455,7 @@
     display: inline-block;
     position: relative;
     left: 250px;
-    top: 7px;
+    top: 12px;
 }
 
 .footer .footer-items3 .line {
@@ -490,11 +492,47 @@
     display: inline-block;
     position: relative;
     left: 350px;
-    /* top: 50px; */
+    top: 10px;
 }
 
 .footer .footer-items4 h3 {
     color: white;
     font-weight: 300px;
     font-family: 'Alegreya Sans', sans-serif;
+}
+
+.footer .footer-items4 ul {
+    position: relative;
+    list-style: none;
+    position: relative;
+    top: 24px;
+    line-height: 25px;
+    color: #8b8a85;
+    vertical-align: middle;
+}
+
+.footer .footer-items4 ul li {
+    width: 320px;
+    padding: 11.3px 0px;
+}
+
+.footer .footer-items4 img {
+    width: 17px;
+    position: relative;
+    right: 10px;
+}
+
+.footer .footer-items4 .line {
+    width: 100%;
+    position: relative;
+    top: 4px;
+    border-bottom: 0.2px solid #46433e;
+}
+
+.footer .footer-items4 ul {
+    width: 250px;
+    height: 180px;
+    background-image: url("/Day3/Task/Answer/images/contact-details-map.png");
+    background-position: center center;
+    background-repeat: no-repeat;
 }
