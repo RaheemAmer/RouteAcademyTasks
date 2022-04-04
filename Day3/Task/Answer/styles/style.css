@@ -546,16 +546,25 @@
     padding-top: 40px;
 }
 
+.copyrights .copy-image {
+    margin: auto;
+}
+
+.copyrights .copy-text {
+    color: #817c74;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
 .copyrights .social-media-icons {
     display: inline-block;
-    border: 2px solid red;
     width: 400px;
     margin: 30px auto;
 }
 
 .copyrights .social-media-icons .icon {
     display: inline-block;
-    /* border: 2px solid green; */
     border-radius: 60%;
     width: 30px;
     height: 30px;
