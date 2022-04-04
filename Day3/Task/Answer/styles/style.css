@@ -384,6 +384,7 @@
 .footer {
     background-color: #403d38;
     width: 100%;
+    padding-bottom: 200px;
 }
 
 .footer .footer-items1 {
@@ -391,7 +392,23 @@
     display: inline-block;
     position: relative;
     left: 100px;
-    color: #615f5a;
+}
+
+.footer .footer-items1 li {
+    list-style-type: none;
+}
+
+.footer .footer-items1 h3 {
+    color: white;
+    font-weight: 300px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.footer .footer-items1 p {
+    color: #81807e;
+    position: relative;
+    line-height: 25px;
+    top: 20px;
 }
 
 .footer .footer-items2 {
@@ -399,11 +416,29 @@
     display: inline-block;
     position: relative;
     left: 200px;
+    bottom: 28px;
+}
+
+.footer .footer-items2 .line {
+    width: 100%;
+    position: relative;
+    top: 4px;
+    border-bottom: 0.2px solid #46433e;
+}
+
+.footer .footer-items2 h3 {
+    color: white;
+    font-weight: 300px;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 .footer .footer-items2 ul {
     position: relative;
     list-style: none;
+    position: relative;
+    top: 30px;
+    line-height: 35px;
+    color: #8b8a85;
 }
 
 .footer .footer-items2 li::before {
@@ -418,6 +453,36 @@
     display: inline-block;
     position: relative;
     left: 250px;
+    top: 7px;
+}
+
+.footer .footer-items3 .line {
+    width: 100%;
+    position: relative;
+    top: 4px;
+    border-bottom: 0.2px solid #46433e;
+}
+
+.footer .footer-items3 h3 {
+    color: white;
+    font-weight: 300px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.footer .footer-items3 ul {
+    position: relative;
+    list-style: none;
+    position: relative;
+    top: 30px;
+    line-height: 35px;
+    color: #8b8a85;
+}
+
+.footer .footer-items3 li::before {
+    content: '>';
+    position: absolute;
+    left: -20px;
+    color: #615f5a;
 }
 
 .footer .footer-items4 {
@@ -425,29 +490,11 @@
     display: inline-block;
     position: relative;
     left: 350px;
+    /* top: 50px; */
 }
 
-
-/* test */
-
-.icon {
-    box-sizing: border-box;
-    position: relative;
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    border: 5px solid red;
-    border-radius: 100%;
-}
-
-.icon::after {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin: 1px 0 0 -6px;
-    display: block;
-    content: '';
-    border: 6px solid transparent;
-    border-top: 10px solid red;
-    border-bottom: none;
+.footer .footer-items4 h3 {
+    color: white;
+    font-weight: 300px;
+    font-family: 'Alegreya Sans', sans-serif;
 }
