@@ -1,11 +1,24 @@
-/* in this section we are trying to use float instead of display - inline-block */
+/* 
+in this section we are trying to use float instead of display - inline-block 
+
+Float takes two values ( left or right)
+
+pros of float compared to display
+1 - doesn't leave any whitespace ( take any width )
+2- 
+*/
 
 .images {
-    width: 33.3%;
+    width: 25%;
     text-align: center;
     border: 2px solid red;
+    float: left;
 }
 
 .images img {
     width: 100%;
+}
+
+.clear-fix {
+    clear: left;
 }
