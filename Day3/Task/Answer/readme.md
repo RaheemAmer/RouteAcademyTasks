@@ -21,3 +21,10 @@ https://mobiforge.com/design-development/html5-mobile-web-forms-and-input-types
 
 Wonderful solution:
 https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div
+
+Grade for this assignment was 10/10
+
+1-Things to consider:
+2-better naming conventions
+3-use vertical-align property instead of position 
+4-don't make empty divs
