@@ -1,0 +1,11 @@
+/* in this section we are trying to use float instead of display - inline-block */
+
+.images {
+    width: 33.3%;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.images img {
+    width: 100%;
+}
