@@ -26,3 +26,38 @@ cons:
 .clear-fix {
     clear: left;
 }
+
+
+/*
+Background image
+if we added background image or color to empty div,
+nothing will show because there is no content and this makes the div has 0 height
+
+background-size = controls width and height of background image 
+background-position: using x axis and y axis - bottom left - top 20px right 50px
+if you're having one value, then it's gonna be x-axis
+
+selecting all classes starts with bg => [class*="bg-"]
+cover - fit into original dimensions
+ */
+
+.back-image {
+    width: 500px;
+    height: 400px;
+    background-color: burlywood;
+    border: 2px solid red;
+    background-image: url(/Day3/training/images/example.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-size: cover;
+    /* default behavior  is scroll*/
+    background-attachment: scroll;
+    background-attachment: fixed;
+    text-align: center;
+    margin: auto;
+}
+
+.back-image h3 {
+    padding: 170px;
+}

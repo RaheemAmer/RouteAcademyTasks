@@ -28,3 +28,5 @@ Grade for this assignment was 10/10
 2-better naming conventions
 3-use vertical-align property instead of position 
 4-don't make empty divs
+5-layer after main div - to make background little bit faded - use rgba for opacity - vertical align
+6-box-sizing: content box => border + margin + padding = width  because of content box - solution is make it border-box
