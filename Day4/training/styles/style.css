@@ -1,0 +1,49 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+.our-baking {
+    text-align: center;
+}
+
+.item {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+.item img {
+    width: 100%;
+}
+
+.inner {
+    background-color: teal;
+}
+
+@media screen and (max-width: 600px) {
+    .item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 601px) and (max-width: 768px) {
+    .item {
+        width: 50%;
+    }
+}
+
+
+/* 
+breakpoint in rwd
+0 - 600
+601 = 768
+769 - 962
+993 - 1200
+
+instead of clearing float we give width:100%
+ */
