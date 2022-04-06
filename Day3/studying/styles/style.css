@@ -5,7 +5,11 @@ Float takes two values ( left or right)
 
 pros of float compared to display
 1 - doesn't leave any whitespace ( take any width )
-2- 
+2-  right percentage of width is measured
+
+cons: 
+1- whole page is floated if you didn't clear float before closing the div
+2- the background color of the parent is not applied because the children became floated so the div has no content to have a background color in first place
 */
 
 .images {
