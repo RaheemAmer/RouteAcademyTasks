@@ -89,3 +89,15 @@ Contain -> gonna make the dimensions of it similar to parent
 /* 
 Http request- solve too many request from the server for images - using spreadsheet - spirits
 */
+
+
+/* 
+remove the element and don't reserve his place act like it doesn't exist - display:none;
+visibility: hidden;
+opacity:0; - div + div content --- rgba affects on the background only - reserve place
+overflow: hidden - no reserve place - if it's width is increased -  it deletes the rest / overflow: scroll and adds scroll bar
+overflow: auto if it's increased it adds scrollbar otherwise 
+
+(margin collapse) is solved using overflow
+giv parent overflow: hidden;
+*/

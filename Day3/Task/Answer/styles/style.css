@@ -533,7 +533,7 @@
 .footer .footer-items4 ul {
     width: 250px;
     height: 180px;
-    background-image: linear-gradient(rgba(64, 61, 56, 0.8), #403d38), url("/Day3/Task/Answer/images/contact-details-map.png");
+    background-image: linear-gradient(rgba(64, 61, 56, 0.8), #403d38), url("../images/contact-details-map.png");
     background-position: center 50px;
     background-repeat: no-repeat;
 }
@@ -581,4 +581,5 @@ line - height
 
 Questions: 
 Why I can't write short path in background image: url?
+put ../ before path
 */
