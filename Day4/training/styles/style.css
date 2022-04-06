@@ -46,4 +46,46 @@ breakpoint in rwd
 993 - 1200
 
 instead of clearing float we give width:100%
- */
+
+you can either write media query after each section
+after whole page
+move it into separate file
+*/
+
+
+/* for printing */
+
+@media print {
+    .item {
+        width: 50%;
+    }
+}
+
+
+/* for reading */
+
+@media speech {
+    .item {
+        width: 50%;
+    }
+}
+
+
+/* for all */
+
+@media all {
+    .item {
+        width: 50%;
+    }
+}
+
+
+/* 
+Cover -> gonna stretch the dimensions of the image
+Contain -> gonna make the dimensions of it similar to parent
+*/
+
+
+/* 
+Http request- solve too many request from the server for images - using spreadsheet - spirits
+*/
