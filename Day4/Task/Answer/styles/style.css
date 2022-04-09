@@ -1,220 +1,52 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 
-/* 1st - Header Section */
+/* 1st section */
+
+.intro-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/slider/slider-01.jpg) center center;
+    background-size: cover;
+    height: 100vh;
+}
 
 .navbar {
-    margin-bottom: 4px;
-    background-image: url(../images/slider/slider-01.jpg);
-    Background-size: 100% 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    Height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
 }
 
-
-/* Logo */
-
-.logo {
-    width: 170px;
-    height: 0px;
-    display: inline-block;
+.intro-section .navbar {
+    padding: 20px;
 }
 
-.logo img {
-    width: 150px;
-    padding-top: 20px;
-    padding-left: 150px;
-}
-
-
-/* Navbar links */
-
-.nav-links ul {
-    width: 100%;
-}
-
-.nav-links ul li {
-    list-style: none;
-    display: inline-block;
-}
-
-.nav-links ul li a {
-    width: 50px;
+.intro-section .navbar #logo {
+    color: #ff305b;
     text-decoration: none;
-    font-size: medium;
-    padding-left: 30px;
-    font-size: 17px;
-    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    float: left;
+    margin-left: 150px;
 }
 
-.nav-links {
-    width: 75%;
-    display: inline-block;
-    text-align: right;
-}
-
-
-/* introduction */
-
-.introduction {
-    text-align: center;
-    padding-top: 170px;
-}
-
-.introduction h3 {
-    color: white;
-    font-weight: 100;
-    font-family: 'Alegreya', serif;
-    padding-bottom: 20px;
-}
-
-.introduction h1 {
-    color: white;
+.intro-section .navbar .nav-links li {
+    vertical-align: baseline;
     font-weight: 300;
-    font-size: 65px;
-    font-family: serif;
-    padding-bottom: 30px;
+    list-style: none;
 }
 
-.introduction .headline {
+.intro-section .navbar .nav-links li a {
     color: white;
-    font-size: 20px;
-    font-family: serif;
-    padding-bottom: 20px;
-    font-weight: 100;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    line-height: 20px;
+    font-weight: lighter;
+    float: right;
+    letter-spacing: 0.5px;
+    padding-left: 15px;
 }
 
-
-/* 3nd - our location section */
-
-.our-location {
-    display: inline-block;
-    background-color: #f8f8f8;
-    width: 100%;
-}
-
-.food-image2 {
-    display: inline-block;
-    width: 45%;
-}
-
-.food-image2 img {
-    width: 85%;
-    margin-top: 100px
-}
-
-.text {
-    width: 45%;
-    position: relative;
-    bottom: 130px;
-    display: inline-block;
-    margin-left: 100px;
-    padding-bottom: 80px;
-}
-
-.text h2 {
-    padding: 10px 0px;
-    font-family: 'Alegreya', serif;
-    font-size: 35px;
-}
-
-.text p {
-    padding: 20px 0px;
-    font-size: 15px;
-    line-height: 25px;
-    font-family: 'Alegreya ', sans-serif;
-    font-weight: 500;
-    color: #989898;
-    width: 570px;
-}
-
-
-/* 4th - our baking section */
-
-.our-baking {
-    text-align: center;
-    width: 85%;
-    margin: 90px auto;
-}
-
-.our-baking #our-baking-h3 {
-    font-size: 28px;
-    font-weight: 100;
-    color: #636363;
-    font-family: 'Alegreya ', sans-serif;
-    padding-bottom: 20px;
-}
-
-.our-baking #our-baking-p {
-    font-size: 17px;
-    color: #8f8f8f;
-    font-weight: 900;
-    font-family: 'Alegreya Sans', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 80px;
-}
-
-.our-baking .item #item-h3 {
-    font-size: 19px;
-    font-weight: 100;
-    color: #636363;
-    font-family: 'Alegreya ', sans-serif;
-    padding: 20px;
-}
-
-.our-baking .item #item-p {
-    font-size: 14px;
-    font-weight: 100;
-    line-height: 25px;
-    color: #636363;
-    font-family: 'Alegreya ', sans-serif;
-    padding: 20px;
-}
-
-.item {
-    display: inline-block;
-    width: 30%;
-    padding-left: 37px;
-}
-
-.item img {
-    width: 100%;
-}
-
-
-/* last - copyrights section */
-
-.copyrights {
-    background-color: #353330;
-    text-align: center;
-    padding-top: 40px;
-}
-
-.copyrights .copy-image {
-    margin: auto;
-}
-
-.copyrights .copy-text {
-    color: #817c74;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 20px;
-}
-
-.copyrights .social-media-icons {
-    display: inline-block;
-    width: 400px;
-    margin: 30px auto;
-}
-
-.copyrights .social-media-icons .icon {
-    display: inline-block;
-    border-radius: 60%;
-    width: 30px;
-    height: 30px;
-    margin-left: 5px;
+.clear-fix {
+    clear: both;
 }
