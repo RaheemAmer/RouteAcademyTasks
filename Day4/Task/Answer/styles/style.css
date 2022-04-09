@@ -50,3 +50,10 @@
 .clear-fix {
     clear: both;
 }
+
+
+/* star */
+
+.checked {
+    color: orange;
+}
