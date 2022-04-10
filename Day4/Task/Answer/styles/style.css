@@ -291,6 +291,54 @@
     font-weight: 400;
 }
 
+.our-portfolio {
+    text-align: center;
+    padding: 90px;
+}
+
+.our-portfolio h2 {
+    color: #333333;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    padding: 0px 0px 30px;
+    text-align: center;
+}
+
+.our-portfolio .buttons-display button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #333333;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 3px 12px;
+    position: relative;
+    font-size: 17px;
+}
+
+.our-portfolio-brands {
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.our-portfolio-brands img {
+    width: 31%;
+    display: inline-block;
+    padding: 30px;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+/* 5th section - facts area */
+
 
 /* star */
 
