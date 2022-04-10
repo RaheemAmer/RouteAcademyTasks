@@ -15,40 +15,78 @@
 .navbar {
     box-sizing: border-box;
     text-align: center;
-}
-
-.intro-section .navbar {
-    padding: 20px;
+    padding-top: 15px;
+    padding-left: 60px;
 }
 
 .intro-section .navbar #logo {
     color: #ff305b;
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: bolder;
     float: left;
-    margin-left: 150px;
+    margin-left: 120px;
+    text-align: start;
 }
 
 .intro-section .navbar .nav-links li {
-    vertical-align: baseline;
-    font-weight: 300;
     list-style: none;
+    width: 85%;
+    padding-left: 20px;
 }
 
 .intro-section .navbar .nav-links li a {
     color: white;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
-    line-height: 20px;
-    font-weight: lighter;
     float: right;
     letter-spacing: 0.5px;
-    padding-left: 15px;
+    padding-left: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    font-weight: lighter;
+    margin-top: 5px;
 }
 
 .clear-fix {
     clear: both;
+}
+
+
+/* Introduction */
+
+.introduction-text {
+    text-align: center;
+    margin: 225px auto;
+}
+
+.introduction-text h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    vertical-align: baseline;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 26.4px;
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.introduction-text h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: #ff305b;
+    margin: 0 0 10px;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.introduction-text h4 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0 0 10px;
+    font-size: 26px;
+    text-transform: uppercase;
 }
 
 
