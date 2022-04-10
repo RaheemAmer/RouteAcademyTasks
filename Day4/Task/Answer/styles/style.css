@@ -222,6 +222,76 @@
 }
 
 
+/* 3rd section - our services */
+
+.our-services {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 90px;
+}
+
+.our-services h2 {
+    color: #333333;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 40px;
+    line-height: 30px;
+    margin: 0px 0px 40px;
+    padding: 0px 0px 30px;
+    font-weight: 800;
+}
+
+.lines {
+    padding-top: 15px;
+}
+
+.lines #hr-1 {
+    width: 70px;
+    border-bottom: 0.5px solid rgba(255, 48, 91, 1);
+    margin: 3px auto;
+}
+
+.lines #hr-2 {
+    width: 150px;
+    border-bottom: 0.5px solid rgba(255, 48, 91, 1);
+    margin: 3px auto;
+}
+
+.service-items {
+    padding: 0px 70px;
+}
+
+.services-icons {
+    font-size: 40px;
+    color: #ff305b;
+}
+
+.service-list {
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.service-list h3 {
+    color: #333333;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 24px;
+    line-height: 26.4px;
+    margin: 10px 0px 15px;
+    font-weight: 600;
+}
+
+.service-list p {
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+
+
 /* star */
 
 .checked {
