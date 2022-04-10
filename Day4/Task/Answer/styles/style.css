@@ -131,7 +131,6 @@
     font-weight: 600;
     line-height: 22px;
     margin-bottom: 25px;
-    position: relative;
     text-transform: uppercase;
     text-align: left;
 }
@@ -141,15 +140,14 @@
 }
 
 .hello-text #paragraph {
-    color: #555555;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    border-bottom: 1px dashed #999999;
+    line-height: 28px;
+    color: #555555;
+    text-align: left;
     margin-bottom: 25px;
     padding-bottom: 25px;
-    margin: 0 0 15px;
-    line-height: 28px;
-    text-align: left;
+    border-bottom: 1px dashed #999999;
 }
 
 .hello-text .hello-details {
@@ -158,11 +156,11 @@
 }
 
 .hello-text .hello-details p {
-    display: inline;
     color: #555555;
     font-family: "Roboto", sans-serif;
-    margin: 0px 0px 25px;
     font-weight: 400;
+    display: inline;
+    margin: 0px 0px 25px;
 }
 
 .hello-details-text {
@@ -170,9 +168,9 @@
 }
 
 .hello-details-text span {
-    color: #333333;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    color: #333333;
 }
 
 #right-text {
@@ -186,43 +184,41 @@
 }
 
 #left-text a {
-    text-decoration: none;
-    color: #7e7e7e;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    color: #7e7e7e;
+    text-decoration: none;
     padding-left: 5px;
 }
 
 .btn1 {
-    border-radius: 4px;
-    color: #ffffff;
-    display: inline-block;
-    background: #ff305b;
-    padding: 13px 25px;
+    font-size: 16px;
     font-weight: 400;
     text-decoration: none;
-    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background: #ff305b;
     display: inline-block;
-    text-align: center;
+    padding: 13px 25px;
     margin: 4px 2px;
+    text-align: center;
     cursor: pointer;
-    font-size: 16px;
+    border: none;
 }
 
 .btn2 {
-    border-radius: 4px;
-    color: #ffffff;
-    display: inline-block;
-    background: #ff305b;
-    padding: 13px 25px;
+    font-size: 16px;
     font-weight: 400;
     text-decoration: none;
-    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background: #ff305b;
     display: inline-block;
-    text-align: center;
     margin: 4px 8px;
+    padding: 13px 25px;
+    text-align: center;
     cursor: pointer;
-    font-size: 16px;
+    border: none;
 }
 
 
