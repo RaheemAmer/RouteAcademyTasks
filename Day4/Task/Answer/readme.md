@@ -30,3 +30,9 @@ Grade for this assignment was 10/10
 4-don't make empty divs
 5-layer after main div - to make background little bit faded - use rgba for opacity - vertical align
 6-box-sizing: content box => border + margin + padding = width  because of content box - solution is make it border-box
+
+cool css challenge:
+https://alvaromontoro.com/blog/67936/100-days-of-css-illustrations
+
+draw a triangle:
+https://alvaromontoro.com/blog/67970/drawing-a-triangle-with-css

@@ -378,8 +378,132 @@
 }
 
 
-/* star */
+/* 6th section - Client's feedback */
+
+.client-feedback {
+    text-align: center;
+    padding: 80px 0px;
+    margin-top: 20px;
+}
+
+.client-feedback h2 {
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px 0px 40px;
+    padding: 0px 0px 30px;
+    line-height: 30px;
+}
+
+.client-feedback-card {
+    background-color: #f1f1f1;
+    height: 250px;
+    width: 780px;
+    border-radius: 5px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 20px;
+    margin: auto;
+}
+
+
+/* .triangle {
+    border-top: 15px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 120px solid #ff496f;
+    position: absolute;
+} */
+
+.client-feedback-card .client-image {
+    width: 100px;
+}
+
+.client-feedback-card .client-image img {
+    border-radius: 50%;
+    width: 119px;
+    float: left;
+    margin-right: 40px;
+}
+
+.client-feedback-card .client-feedback-text {
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    display: inline;
+}
+
+.client-feedback-card .client-feedback-text h3 {
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    line-height: 28.6px;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.client-feedback-card .client-feedback-text h5 {
+    color: #777777;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    line-height: 16.5px;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.client-feedback-card .client-feedback-text p {
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+    margin: 0px 0px 15px;
+    font-weight: 400;
+    font-style: italic;
+    width: 600px;
+    margin-left: 120px;
+}
+
+.client-rating {
+    padding-left: 160px;
+}
+
+.client-button1 {
+    border: 1px solid #ff305b;
+    background-color: #ff305b;
+    border-radius: 50px 50px;
+    display: inline-block;
+    height: 9px;
+    margin: 0 3px;
+    width: 25px;
+}
+
+.client-button2 {
+    border: 1px solid #ff305b;
+    color: white;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin: 0 3px;
+    width: 11px;
+}
+
+
+/* star rating */
 
 .checked {
     color: orange;
+}
+
+.client-feedback-buttons {
+    text-align: center;
+}
+
+
+/* 7th section - our blog */
+
+.our-blog {
+    text-align: center;
 }
