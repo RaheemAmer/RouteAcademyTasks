@@ -339,6 +339,44 @@
 
 /* 5th section - facts area */
 
+.facts {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px;
+}
+
+.facts-area .fact {
+    display: inline-block;
+    padding: 50px 90px;
+}
+
+.facts-icons {
+    font-size: 26px;
+    color: #ff305b;
+    margin-bottom: 15px;
+}
+
+.facts-area .fact h3 {
+    padding-top: 10px;
+    color: #333333;
+    font-size: 26px;
+    font-weight: 800;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.1;
+    box-sizing: border-box;
+}
+
+.facts-area .fact h5 {
+    color: #555555;
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+    box-sizing: border-box;
+}
+
 
 /* star */
 
