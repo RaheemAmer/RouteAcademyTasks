@@ -90,6 +90,142 @@
 }
 
 
+/* second section  - hello */
+
+.hello-section {
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+    padding: 100px 0 125px;
+}
+
+.hello-section .hello-image {
+    border-radius: 5px;
+    box-shadow: 0 0 0 8px #555555 inset;
+    display: block;
+    position: relative;
+    width: 25%;
+    float: left;
+    margin-left: 300px;
+}
+
+.hello-section .hello-image img {
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 5px;
+}
+
+.hello-text {
+    float: right;
+    width: 45%;
+}
+
+.hello-text h2 {
+    color: #333333;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 25px;
+    position: relative;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.hello-text h2 span {
+    color: #ff305b;
+}
+
+.hello-text #paragraph {
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border-bottom: 1px dashed #999999;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    margin: 0 0 15px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.hello-text .hello-details {
+    text-align: left;
+    list-style: none;
+}
+
+.hello-text .hello-details p {
+    display: inline;
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 0px 25px;
+    font-weight: 400;
+}
+
+.hello-details-text {
+    width: 70%;
+}
+
+.hello-details-text span {
+    color: #333333;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+#right-text {
+    float: left;
+    width: 35%;
+}
+
+#left-text {
+    float: right;
+    width: 50%;
+}
+
+#left-text a {
+    text-decoration: none;
+    color: #7e7e7e;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.btn1 {
+    border-radius: 4px;
+    color: #ffffff;
+    display: inline-block;
+    background: #ff305b;
+    padding: 13px 25px;
+    font-weight: 400;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn2 {
+    border-radius: 4px;
+    color: #ffffff;
+    display: inline-block;
+    background: #ff305b;
+    padding: 13px 25px;
+    font-weight: 400;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    margin: 4px 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
 /* star */
 
 .checked {
