@@ -411,14 +411,6 @@
     margin: auto;
 }
 
-
-/* .triangle {
-    border-top: 15px solid transparent;
-    border-bottom: 100px solid transparent;
-    border-left: 120px solid #ff496f;
-    position: absolute;
-} */
-
 .client-feedback-card .client-image {
     width: 100px;
 }
@@ -695,4 +687,24 @@
     text-align: center;
     background-color: #333333;
     height: 150px;
+}
+
+.copyright-image li {
+    color: white;
+    padding: 60px 10px 15px;
+    font-size: 20px;
+}
+
+.copyrights p {
+    color: #ffffff;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.copyrights a {
+    color: #ff305b;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    background-color: transparent;
 }
