@@ -290,30 +290,37 @@
                 <div class="blog-card-image">
                     <img src="./images/blog/1.jpg" alt="blog">
                 </div>
-                <p>23 November, 2015</p>
-                <p>web design Blog Post</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
-                <a href="#">Read More &rarr; </a>
+                <div class="details">
+                    <p class="date">23 November, 2015</p>
+                    <p class="type">web design Blog Post</p>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt, architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing elit.
+                    </p>
+                    <a href="#">Read More &rarr; </a>
+                </div>
             </div>
             <div class="blog-card card-2">
                 <div class="blog-card-frame">
                     <iframe src="https://www.youtube.com/embed/uVju5--RqtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <p>20 April, 2018</p>
-                <p>Development Blog Post</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt, architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing elit.
-                </p>
-                <a href="#">Read More &rarr; </a>
+                <div class="details">
+                    <p class="date">20 April, 2018</p>
+                    <p class="type">Development Blog Post</p>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt, architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing elit.
+                    </p>
+                    <a href="#">Read More &rarr; </a>
+                </div>
             </div>
             <div class="blog-card card-3">
                 <div class="blog-card-image">
                     <img src="./images/blog/3.jpg" alt="blog">
                 </div>
-                <p>17 May, 2017</p>
-                <p>Full Width Blog Post</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt, architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing elit.
-                </p>
-                <a href="#">Read More &rarr; </a>
+                <div class="details">
+                    <p class="date">17 May, 2017</p>
+                    <p class="type">Full Width Blog Post</p>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt, architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing elit.
+                    </p>
+                    <a href="#">Read More &rarr; </a>
+                </div>
             </div>
         </div>
         <!-- Clear- float -->
@@ -328,32 +335,47 @@
                 <hr id="hr-1">
             </div>
         </h2>
-
-        <form action="post">
-            <label for="name">
-                <input type="text" id="name" name="Name" placeholder="Name">
-            </label>
-            <label for="email-address">
-                <input type="email" id="email-address" name="email-address" placeholder="Email">
-            </label>
-            <label for="subject">
-                <input type="text" id="subject" name="Subject" placeholder="Subject">
-            </label>
-            <label for="">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Message for me">
-
-                    </textarea>
-            </label>
-            <button>Send Message</button>
-        </form>
+        <div class="contact-us-form">
+            <form action="post">
+                <div class="form-row1">
+                    <span class="form-name">
+                        <label for="Name">
+                            <input type="text" id="Name" name="Name" placeholder="Name">
+                        </label>
+                    </span>
+                    <span class="form-email">
+                        <label for="email-address">
+                            <input type="email" id="email-address" name="email-address" placeholder="Email">
+                        </label>
+                    </span>
+                </div>
+                <div class="form-row2">
+                    <span class="form-subject">
+                        <label for="subject">
+                            <input type="text" id="subject" name="Subject" placeholder="Subject">
+                        </label>
+                    </span>
+                </div>
+                <div class="form-row3">
+                    <span class="form-message">
+                        <label for="Message">
+                            <textarea name="Message" id="Message" cols="30" rows="10"
+                                placeholder="Message for me"></textarea>
+                        </label>
+                    </span>
+                </div>
+                <div class="form-button">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
     </div>
     <!-- 9th section - Copyrights -->
     <div class="copyrights">
         <div class="copyright-image">
             <img src="" alt="">
         </div>
-        <p>Copy Right 2018 © By <a href="#">Theme-fair</a> All Rights Reserved</p>
-    </div>
+        <p>Copy Right 2022 © By <a href="#">Raheem-Amer</a> All Rights Reserved</p>
     </div>
 </body>
 
