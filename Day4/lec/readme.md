@@ -43,3 +43,7 @@ use rotate or skew border
 }
 
 position relative to parent - absolute to element (layer) - top 0 begins from top - opacity - time in element not in hover - 
+
+--
+cover - extends background image and even stretch it to fit the layout according to viewport - can be cut - some times can't be all visible 
+contain - fit the layout - not cut and it's all visible
