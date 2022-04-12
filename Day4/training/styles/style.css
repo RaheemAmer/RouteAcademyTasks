@@ -101,3 +101,65 @@ overflow: auto if it's increased it adds scrollbar otherwise
 (margin collapse) is solved using overflow
 giv parent overflow: hidden;
 */
+
+
+/*
+outline doesn't add up to the width of the box
+*/
+
+
+/* 
+border can act like outline if we made box-sizing: border-box
+*/
+
+
+/*
+outline can't pick each side you want 
+there is no outline-radius
+*/
+
+
+/*  
+display: block;
+-block takes full width as long as you didn't mention a specified width
+-apply all width, height and margin and padding
+-add line break
+
+display:inline
+-no line break
+-no to all (padding and margin only works left and right) top and bottom if added block line like div, it will overflow the content of div
+
+display:inline-block;
+-combines both inline and block
+-width if fitted accordinh to content's width
+*/
+
+
+/* 
+Display: none
+removed and hidden even from workflow
+
+visibility: hidden;
+hide the element but keeps it's place in the workflow
+*/
+
+
+/* 
+Use case:
+if there is a possibility that your box will increase size in the future or stretched out then
+min-width is better than width, same for max-width (height also has the same properties)
+*/
+
+.task1 {
+    background-color: royalblue;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    /* outline: 4px solid green; */
+    /* display: block; */
+}
