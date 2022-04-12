@@ -150,6 +150,40 @@ if there is a possibility that your box will increase size in the future or stre
 min-width is better than width, same for max-width (height also has the same properties)
 */
 
+
+/* 
+using display: inline-block to make width fit content is not the best practice so we use
+width: fit-content;
+*/
+
+
+/* 
+overflow: visible; (default behavior) - can control x and y axis
+- hidden when it exceeds the width of the div, the content is hidden
+- scroll when it exceeds a right scroll bar appears
+*/
+
+
+/* 
+text-shadow:
+horizontal - x axis
+vertical - y axis
+noise - increase fog 
+color - use rgba for alpha opacity
+
+text-align: 
+- justify -> extend text to fit the width of box
+!important
+*/
+
+
+/* 
+text-direction:
+control content position in the page
+direction:
+control direction of content in the page
+*/
+
 .task1 {
     background-color: royalblue;
     padding: 10px;
@@ -162,4 +196,11 @@ min-width is better than width, same for max-width (height also has the same pro
     margin: auto;
     /* outline: 4px solid green; */
     /* display: block; */
+    vertical-align: text-bottom;
+}
+
+.container {
+    margin: 0 auto;
+    border: 2px solid red;
+    text-align: center;
 }
