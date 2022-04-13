@@ -312,6 +312,12 @@ position: absolute;
 last one will be the first one (according to html order)
 
 z-index works with bigger numbers as it's indicator for priority
+use case:
+if 2 elements take same z-index then order of html decides who is gonna be shown - last element in html has more priority as it works line by line
+
+in order to make position works - we have to put position: absolute
+
+z-index helps us to put order to elements that overlays each other like modal and side nav or drop down
 /*/
 
 .task1 {
