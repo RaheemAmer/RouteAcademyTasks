@@ -253,6 +253,58 @@ if we want margin-left: 15px;
 5 elements width:calc((100% - 90px) / 5);
 */
 
+
+/* 
+control opacity in background-color using rgba (alpha) only controls color intensity
+control opacity for the whole content using opacity
+1 is the largest - while 0 is the least amount of value
+use case:
+like modal in bootstrap
+*/
+
+
+/* 
+when we use margin the whole workflow is moved even if we picked one div
+
+position: static; default behavior
+
+position: relative; compared to his position - his position is his initial value
+can freely move in the workflow with no effect on others
+
+position:absolute;
+the parent dimensions which is the page is his initial values - this can make the other div overlap the original div
+
+So when we give it 
+bottom:0;
+right:0;
+
+now when we make margin to the first div, it won't affect the other div we put position: absolute to
+
+to make the nested div inside the parent move within the parent's dimensions, put position: relative to the father
+and our div has position: absolute
+
+position: fixed;
+the div that has the position fixed doesn't take into his consideration the main position of the parent nor the parent div,
+he is connected to the viewport
+
+use case:
+scroll to up button
+position fixed;
+bottom:0;
+right; 0;
+
+
+position: sticky;
+it reserves his place normally in the workflow
+
+use case:
+when we scroll down, some navbar styles stick to the top viewport ( used to be made using javascript but now sticky is easier)
+
+position: sticky;
+top: 0;
+
+*/
+
 .task1 {
     background-color: royalblue;
     padding: 10px;
