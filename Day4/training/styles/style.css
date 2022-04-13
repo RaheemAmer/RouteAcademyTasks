@@ -302,8 +302,17 @@ when we scroll down, some navbar styles stick to the top viewport ( used to be m
 
 position: sticky;
 top: 0;
-
 */
+
+
+/* 
+z-index
+position: absolute;
+3 divs 
+last one will be the first one (according to html order)
+
+z-index works with bigger numbers as it's indicator for priority
+/*/
 
 .task1 {
     background-color: royalblue;
