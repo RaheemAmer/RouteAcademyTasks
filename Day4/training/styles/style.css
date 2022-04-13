@@ -320,6 +320,21 @@ in order to make position works - we have to put position: absolute
 z-index helps us to put order to elements that overlays each other like modal and side nav or drop down
 /*/
 
+
+/* 
+list-style-position: outside; / inside
+list-style-image: url();
+list-style: type position image
+list-style: none;
+padding-left: 0;
+*/
+
+
+/* 
+in table
+we would like to add spacing => border-spacing: 10px;
+*/
+
 .task1 {
     background-color: royalblue;
     padding: 10px;
