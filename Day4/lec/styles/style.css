@@ -88,4 +88,17 @@ flex-direction: row-reverse
 justify-content: flex-end;
 align-items: center;
 
+
+a is like image you have to re assign it
+
+when giving position fixed to navbar is got worse(left div) - we give the navbar width 100% or left: 0; right:0;
+
+@media screen and (max-width: 992px){
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar{
+        flex-direction: column;
+    }
 */
