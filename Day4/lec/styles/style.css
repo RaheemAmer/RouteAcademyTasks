@@ -102,3 +102,30 @@ when giving position fixed to navbar is got worse(left div) - we give the navbar
         flex-direction: column;
     }
 */
+
+
+/* 
+order on children in flex - order default value is zero according to html
+z-index fo2 b3d while order next to each other
+
+flex-grow: 1; element 7ayzed bekam kam - flex grow = zero
+
+
+parent width = 100px
+5 groups for flex grow value = 5
+main child width = 250 => 1000 = 250 = 750 
+750 / 5 = 150;
+5 grow ==> 250px 
+
+100 - 750 = 250
+5 frow = 250px 
+1 grow = 50
+
+
+shrink -> flex-shrink
+flex-shrink= 1;
+
+
+display table = display flex
+
+*/
