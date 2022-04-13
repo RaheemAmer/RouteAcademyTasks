@@ -228,6 +228,31 @@ default font size is 16px
 font-variant: small-caps only makes capital word  but with smaller font-size compared to text-transform: capitalize
 */
 
+
+/* 
+Solve float issues with overflow-hidden;
+use case:
+if you have a pop up or drop down menu then this is not gonna work
+or 
+specify a height for the parent element not optimal solution
+*/
+
+
+/* 
+content width is: 100%
+5 spaces is 1% * 5 => 5% from content width
+95% available space
+4 elements, the width is gonna be 95% / 4
+
+instead of calculating values for float we can use 
+width:calc(95% / 4);
+
+if we want margin-left: 15px;
+6 spaces - 15px * 6 => 90px from content width
+100% - 90px available space
+5 elements width:calc((100% - 90px) / 5);
+*/
+
 .task1 {
     background-color: royalblue;
     padding: 10px;
