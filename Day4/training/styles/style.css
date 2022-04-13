@@ -131,7 +131,7 @@ display:inline
 
 display:inline-block;
 -combines both inline and block
--width if fitted accordinh to content's width
+-width if fitted according to content's width
 */
 
 
@@ -182,6 +182,50 @@ text-direction:
 control content position in the page
 direction:
 control direction of content in the page
+*/
+
+
+/* 
+letter-spacing:
+word-spacing:
+text-indent: better than padding for text
+lne-height: 1.6
+white-space:nowrap -> doesn't break line 
+word-break: works if words are outside the div -> break-word;
+text-overflow: ellipsis; put three dots to show that the words is still not finished
+*/
+
+
+/* 
+div:hover{
+    overflow:visible;
+}
+    instead using this we use html attribute called title
+
+    div - border: 2px solid red
+    div p - border-color: initial;
+*/
+
+
+/* 
+CSS units
+px
+percentage
+em => time
+rem => root time - takes initial values from parent which is html tag
+vw => viewport width
+vh => viewport height
+vmin => viewport minimum
+
+
+Notes:
+1em = 16px (This is wrong) - em according to parent's font size
+default font size is 16px
+*/
+
+
+/* 
+font-variant: small-caps only makes capital word  but with smaller font-size compared to text-transform: capitalize
 */
 
 .task1 {
