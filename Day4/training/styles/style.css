@@ -335,6 +335,30 @@ in table
 we would like to add spacing => border-spacing: 10px;
 */
 
+
+/* 
+
+state like hover or visited
+a:hover{
+    color: red;
+}
+.ch:checked + label{
+ color: red;
+}
+
+div:empty{
+border: 10x solid red;
+
+:empty{
+background-color: blue;
+}
+
+in:focus{
+background-color: blue;
+}
+
+     */
+
 .task1 {
     background-color: royalblue;
     padding: 10px;
