@@ -356,13 +356,26 @@ background-color: blue;
 in:focus{
 background-color: blue;
 }
-
- */
+*/
 
 
 /* 
+pseudo elements
+.two::first-letter{
+    color: red;
+}
+.two::first-line{
+    color: red;
+}  
 
+control selection color
+::selection{
+background-color: yellow;
+}
+.four::selection{
+background-color: yellow;
 
+}
 */
 
 .task1 {
