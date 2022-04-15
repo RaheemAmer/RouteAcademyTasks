@@ -374,8 +374,13 @@ background-color: yellow;
 }
 .four::selection{
 background-color: yellow;
-
 }
+*/
+
+
+/* 
+Pseudo elements (most important) (before, after and content)
+
 */
 
 .task1 {
