@@ -23,4 +23,13 @@ The priority goes to mobile layout
 
 ### Bootstrap
 
-You can link bootstrap using cdn or offline (link min.css and javascript file called bundle) - you can use specifc features in bootstrap by linking the specified file to your profile.
+You can link bootstrap using cdn or offline (link min.css and javascript f
+ile called bundle) - you can use specific features in bootstrap by linking the specified file to your profile.
+
+### Bootstrap allows arabic
+
+since version five
+
+### Contents of lecture
+
+Bootstrap utilities
