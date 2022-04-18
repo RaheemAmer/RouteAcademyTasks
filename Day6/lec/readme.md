@@ -33,3 +33,26 @@ since version five
 ### Contents of lecture
 
 Bootstrap utilities
+Keyframes
+
+### Example for keyframes
+
+animation-name:changeWidth;
+animation-duration:2s;
+animation-iteration-count:2; or infinite;
+animation-direction: alternate;
+animation: changeWidth infinite alternate
+
+@keyframes changeWidth{
+0%{width: 500px; background-color:red;}
+100%{width:100% background-color:teal;}
+}
+
+### Flip image 
+
+transform:rotateY(180deg);
+
+@keyframes movingTaxi{
+    0%{left:0;}
+    100%{left:100%;}
+}
