@@ -39,3 +39,6 @@ vmin => viewport minimum
 - meta name = description content / keyword / viewport / charset encoding system for characters (utf 8 or 16)
 - meta name = viewport content = width=device-width, initial-scale=1.0, meta author
 - link rel="shortcut/icon" href="img" type="image/x-icon"
+- train your css with css battle
+
+Wednesday bootstrap
