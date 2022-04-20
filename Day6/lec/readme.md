@@ -48,7 +48,7 @@ animation: changeWidth infinite alternate
 100%{width:100% background-color:teal;}
 }
 
-### Flip image 
+### Flip image
 
 transform:rotateY(180deg);
 
