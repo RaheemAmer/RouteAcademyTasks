@@ -1,0 +1,131 @@
+.item1 {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 3;
+}
+
+.item2 {
+    background-color: royalblue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    z-index: 2;
+}
+
+.item3 {
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    z-index: 1;
+}
+
+
+/* 
+lecture notes - flex
+*/
+
+
+/* 
+parent
+width: 25%
+display: flex;
+
+element
+flex-wrap: wrap; or wrap-reverse or no-wrap (same line or not)
+flex-direction: row (left to right) : row-reverse(right to left)
+flex-direction: column (top to bottom) : column-reverse(bottom to top)
+shorthand -> direction and wrap = flex-flow:column-reverse wrap-reverse;
+*/
+
+
+/* 
+
+
+use flex to center div
+align-items: center;
+
+justify-content: flex-start; end - center - [space between -space around] (control space between elements using flex) horizontal - bal 3rd
+
+
+align-content: flex-start; vertical  bal tol
+align-items: center;
+
+
+background-size: cover;
+background-position: center;
+height: 100vh;
+
+background-color: rgba(0,0,0,0.8); for opacity - alpha
+justify-content: center;
+align-items: center;
+
+
+flex-direction is based on the direction tag in html user agent row or column
+flex-direction: row (left to right) : row-reverse(right to left)
+flex-direction: column (top to bottom) : column-reverse(bottom to top)
+
+flexbox === box
+box === row === justify
+vertical === align
+
+when you make flex-direction: column;
+box === column 
+justify == align
+align == justify
+
+
+
+flex-direction: row-reverse
+justify-content: flex-end;
+align-items: center;
+
+
+a is like image you have to re assign it
+
+when giving position fixed to navbar is got worse(left div) - we give the navbar width 100% or left: 0; right:0;
+
+@media screen and (max-width: 992px){
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+*/
+
+
+/* 
+order on children in flex - order default value is zero according to html
+z-index fo2 b3d while order next to each other
+
+flex-grow: 1; element 7ayzed bekam kam - flex grow = zero
+
+
+parent width = 100px
+5 groups for flex grow value = 5
+main child width = 250 => 1000 = 250 = 750 
+750 / 5 = 150;
+5 grow ==> 250px 
+
+100 - 750 = 250
+5 frow = 250px 
+1 grow = 50
+
+
+shrink -> flex-shrink
+flex-shrink= 1;
+
+
+display table = display flex
+
+*/
