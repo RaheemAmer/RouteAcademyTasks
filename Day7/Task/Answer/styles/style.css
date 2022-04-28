@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    color: #c0cccc;
+}
+
+
+/* First Section - Navbar  */
+
+.navbar {
+    background: linear-gradient(rgba(17, 20, 24, 0.8), rgba(17, 20, 24, 0.8)), url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    position: relative;
+}
+
+.logo-image img {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 0px 10px;
+}
+
+.social-icons i {
+    padding: 0px 10px;
+}
+
+.nav-list ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding-right: 30px;
+    padding-top: 2px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    color: #198754;
+    transition: all 0.2s ease;
+}
+
+
+/* 1st section - header */
+
+header {
+    font-family: monospace;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    min-width: 500px;
+}
+
+.typewriter p {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 500;
+    max-width: max-content;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.typing-erase {
+    animation: 4s typing-erase 4s steps(50, end) infinite, blink-caret .5s step-end infinite;
+    -webkit-animation: 4s typing-erase 4s steps(50, end) infinite, blink-caret .5s step-end infinite;
+}
+
+
+/* The type and erase effect */
+
+@keyframes typing-erase {
+    0% {
+        width: 0
+    }
+    80% {
+        width: 100%
+    }
+    90%,
+    100% {
+        width: 0
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: gray
+    }
+}
