@@ -9,15 +9,18 @@
 
 /* First Section - Navbar  */
 
-.navbar {
+.first-section {
     background: linear-gradient(rgba(17, 20, 24, 0.8), rgba(17, 20, 24, 0.8)), url(../images/intro-bg.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    position: relative;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     padding: 20px 15px;
-    position: relative;
 }
 
 .logo-image img {
@@ -37,7 +40,7 @@
 ul li {
     list-style: none;
     padding-right: 30px;
-    padding-top: 2px;
+    padding-top: 0.2em;
     font-weight: 400;
 }
 
@@ -46,25 +49,43 @@ a {
 }
 
 a:hover {
-    color: white;
-    color: #198754;
+    color: #14c271;
     transition: all 0.2s ease;
 }
 
 
 /* 1st section - header */
 
-header {
-    font-family: monospace;
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-    min-width: 500px;
+.header-section {
+    position: absolute;
+    top: 30%;
+    left: 35%;
 }
 
-.typewriter p {
-    color: #000;
-    font-size: 1.5em;
+.header-section .container {
+    position: relative;
+}
+
+#opening-text {
+    font-size: 28px;
+    color: white;
+    margin-left: 155px;
+    margin-bottom: 5px;
+}
+
+#location {
+    color: rgb(222, 227, 228);
+    font-size: 21px;
+    line-height: 37.8px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 60px;
+    white-space: nowrap;
+}
+
+.typewriter {
+    color: white;
+    font-size: 55px;
     font-weight: 500;
     max-width: max-content;
     overflow: hidden;
@@ -103,4 +124,30 @@ header {
     50% {
         border-color: gray
     }
+}
+
+.header-section .container button {
+    font-size: 17px;
+    color: #20C997;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 2px solid #20C997;
+    border-width: 2px;
+    height: 55px;
+    width: 145px;
+    margin-top: 95px;
+    margin-left: 150px;
+    white-space: nowrap;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 29%;
+    border-bottom-left-radius: 29%;
+}
+
+.header-section .container button:hover {
+    color: white;
+    background-color: #20C997;
 }
