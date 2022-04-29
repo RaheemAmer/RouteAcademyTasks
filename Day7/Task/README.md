@@ -14,4 +14,5 @@ Problems I faced during making the projects:
 - (Make arrow animation) solution => <https://blog.stackfindover.com/html-css-scroll-down-arrow-examples/>
 - (Make navbar sticky) solution => <https://markoskon.com/fixed-navbar-on-top-with-position-sticky/>
 - (Shift code to left) solution => <https://stackoverflow.com/questions/47903209/how-to-shift-a-block-of-code-left-right-by-one-space-in-vscode>
-- 
+- (Fixed overflow in 1st section) solution => overflow-hidden
+- (Download certain folder from repo) solution => <https://downgit.github.io/#/home>

@@ -5,6 +5,28 @@
         font-family: "Poppins", sans-serif;
         color: #c0cccc;
     }
+    /* Global styles */
+    
+    .main-text {
+        color: rgb(33, 37, 41);
+        font-weight: bolder;
+        font-size: 36px;
+        text-align: center;
+        position: relative;
+        top: -7rem;
+        z-index: 2;
+        text-transform: capitalize;
+    }
+    
+    .main-text::after {
+        content: "";
+        width: 80px;
+        border-bottom: 3px solid #14c271;
+        background-color: #14c271;
+        position: absolute;
+        top: 52px;
+        left: 47.5%;
+    }
     /* First Section - Navbar  */
     
     .first-section {
@@ -13,6 +35,7 @@
         background-attachment: fixed;
         height: 100vh;
         position: relative;
+        overflow: hidden;
     }
     
     .navbar {
@@ -57,13 +80,9 @@
     /* 1st section - header */
     
     .header-section {
-        position: absolute;
-        top: 30%;
-        left: 35%;
-    }
-    
-    .header-section .container {
         position: relative;
+        top: 20%;
+        left: 35%;
     }
     
     #opening-text {
@@ -144,7 +163,9 @@
     }
     
     .arrow-container {
-        margin: 155px 210px;
+        position: absolute;
+        top: 27rem;
+        left: 14%;
     }
     /* 2nd section- about me */
     
@@ -164,38 +185,85 @@
         z-index: 1;
     }
     
-    .main-text {
-        color: rgb(33, 37, 41);
-        font-size: 36px;
+    .bio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    
+    .intro-bio {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: left;
+        flex: 0 0 auto;
+        width: 66.66666667%;
+        max-width: 100%;
+    }
+    
+    .intro-bio h2 {
+        color: #252b33;
         font-weight: bolder;
-        text-align: center;
-        position: relative;
-        top: -7rem;
-        z-index: 2;
-        text-transform: capitalize;
+        padding-bottom: 10px;
+        font-weight: bolder;
     }
     
-    .main-text::after {
-        content: "";
-        width: 80px;
-        border-bottom: 3px solid #14c271;
-        background-color: #14c271;
-        position: absolute;
-        top: 52px;
-        left: 47.5%;
-    }
-    /*     
-    .about-me #container {
-        position: relative;
+    .intro-bio h2 span {
+        color: #14c271;
+        font-weight: bolder;
     }
     
-    .about-me #background {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        z-index: -1;
-        overflow: hidden;
-        color: black;
-    } */
+    .intro-bio p {
+        align-self: flex-start;
+        width: 55rem;
+        line-height: 30px;
+        color: #4c4d4d;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+    
+    .credentials ul li {
+        padding-bottom: 15px;
+        color: #4c4d4d;
+    }
+    
+    .credentials ul li span {
+        padding-right: 5px;
+        color: #4c4d4d;
+        font-weight: bolder;
+    }
+    
+    .credentials ul li a {
+        color: #14c271;
+    }
+    
+    .credentials ul li a:hover {
+        color: #12b181;
+    }
+    
+    hr {
+        border: none;
+        height: 1px;
+        background-color: rgb(240, 231, 231);
+        width: 25vw;
+        margin-bottom: 10px;
+    }
+    
+    .credentials button {
+        font-weight: 900;
+        height: 7vh;
+        padding: 0.6em 2.2em;
+        margin: 1em;
+        font-size: 1em;
+        border-radius: 20px;
+        border: none;
+        background-color: #12b181;
+        border-color: #20c997;
+        color: white;
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+    
+    .credentials button:hover {
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    }
