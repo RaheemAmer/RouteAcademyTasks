@@ -19,3 +19,4 @@ Problems I faced during making the projects:
 - (Button lookalike bootstrap in css) solution => <https://html.form.guide/snippets/css-button-rounded-corners/>
 - (Change progress bar color) solution => <https://stackoverflow.com/questions/18368202/how-can-i-set-the-color-for-the-progress-element>
 - (Padding for underline link) solution => <https://stackoverflow.com/questions/8037777/how-make-text-decoration-underline-with-2px-padding>
+- (Pick child of parent) solution => <https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_nth-child>
