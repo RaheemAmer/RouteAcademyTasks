@@ -16,3 +16,4 @@ Problems I faced during making the projects:
 - (Shift code to left) solution => <https://stackoverflow.com/questions/47903209/how-to-shift-a-block-of-code-left-right-by-one-space-in-vscode>
 - (Fixed overflow in 1st section) solution => overflow-hidden
 - (Download certain folder from repo) solution => <https://downgit.github.io/#/home>
+- (Button lookalike bootstrap in css) solution => <https://html.form.guide/snippets/css-button-rounded-corners/>
