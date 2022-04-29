@@ -605,12 +605,14 @@
         .portfolio .container .portfolio-col1 img:nth-child(1) {
             width: 425px;
             margin-bottom: 20px;
+            cursor: pointer;
         }
         
         .portfolio .container .portfolio-col1 img:nth-child(2) {
             width: 425px;
             margin-bottom: 20px;
             height: 624px;
+            cursor: pointer;
         }
         
         .portfolio .container .portfolio-col2 {
@@ -622,12 +624,14 @@
         .portfolio .container .portfolio-col2 img:nth-child(1) {
             width: 425px;
             margin-bottom: 20px;
+            cursor: pointer;
         }
         
         .portfolio .container .portfolio-col2 img:nth-child(2) {
             width: 425px;
             margin-bottom: 20px;
             height: 400px;
+            cursor: pointer;
         }
         
         .portfolio .container .portfolio-col3 {
@@ -638,18 +642,25 @@
         .portfolio .container .portfolio-col3 img:nth-child(1) {
             width: 425px;
             margin-bottom: 20px;
+            cursor: pointer;
         }
         
         .portfolio .container .portfolio-col3 img:nth-child(2) {
             width: 425px;
             margin-bottom: 20px;
             height: 277.15px;
+            cursor: pointer;
         }
         
         .portfolio .container .portfolio-col3 img:nth-child(3) {
             width: 425px;
             margin-bottom: 20px;
             height: 416px;
+            cursor: pointer;
+        }
+        
+        .portfolio .container img:hover {
+            background-color: #4c4d4d;
         }
         /* 6th Section - testimonial */
         
