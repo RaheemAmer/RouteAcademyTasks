@@ -1,172 +1,201 @@
-        * {
-            box-sizing: border-box;
-            margin: 0px;
-            padding: 0px;
-            font-family: "Poppins", sans-serif;
-            color: #c0cccc;
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        font-family: "Poppins", sans-serif;
+        color: #c0cccc;
+    }
+    /* First Section - Navbar  */
+    
+    .first-section {
+        background: linear-gradient(rgba(17, 20, 24, 0.8), rgba(17, 20, 24, 0.8)), url(../images/intro-bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        position: relative;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 35px;
+        position: sticky;
+        width: 100vw;
+        top: 0;
+        left: 0;
+    }
+    
+    .logo-image img {
+        display: inline-flex;
+        flex-direction: row;
+        padding: 0px 10px;
+    }
+    
+    .social-icons i {
+        padding: 0px 10px;
+    }
+    
+    .nav-list ul {
+        display: flex;
+    }
+    
+    ul li {
+        list-style: none;
+        padding-right: 30px;
+        padding-top: 0.2em;
+        font-weight: 400;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #14c271;
+        transition: all 0.2s ease;
+    }
+    /* 1st section - header */
+    
+    .header-section {
+        position: absolute;
+        top: 30%;
+        left: 35%;
+    }
+    
+    .header-section .container {
+        position: relative;
+    }
+    
+    #opening-text {
+        font-size: 28px;
+        color: white;
+        margin-left: 155px;
+        margin-bottom: 5px;
+    }
+    
+    #location {
+        color: rgb(222, 227, 228);
+        font-size: 21px;
+        line-height: 37.8px;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 60px;
+        white-space: nowrap;
+    }
+    
+    .typewriter {
+        color: white;
+        font-size: 55px;
+        font-weight: 500;
+        max-width: max-content;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    .typing-erase {
+        animation: 3s typing-erase 3s steps(50, end) infinite, blink-caret .1s step-end infinite;
+        -webkit-animation: 3s typing-erase 3s steps(50, end) infinite, blink-caret .1s step-end infinite;
+    }
+    
+    @keyframes typing-erase {
+        0% {
+            width: 0
         }
-        /* First Section - Navbar  */
-        
-        .first-section {
-            background: linear-gradient(rgba(17, 20, 24, 0.8), rgba(17, 20, 24, 0.8)), url(../images/intro-bg.jpg);
-            background-size: cover;
-            background-attachment: fixed;
-            height: 100vh;
-            position: relative;
+        80% {
+            width: 100%
         }
-        
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px 15px;
-            position: sticky;
-            width: 100%;
-            top: 0;
-            left: 0;
+        90%,
+        100% {
+            width: 0
         }
-        
-        .logo-image img {
-            display: inline-flex;
-            flex-direction: row;
-            padding: 0px 10px;
+    }
+    
+    @keyframes blink-caret {
+        from,
+        to {
+            border-color: white
         }
-        
-        .social-icons i {
-            padding: 0px 10px;
+        50% {
+            border-color: gray
         }
-        
-        .nav-list ul {
-            display: flex;
-        }
-        
-        ul li {
-            list-style: none;
-            padding-right: 30px;
-            padding-top: 0.2em;
-            font-weight: 400;
-        }
-        
-        a {
-            text-decoration: none;
-        }
-        
-        a:hover {
-            color: #14c271;
-            transition: all 0.2s ease;
-        }
-        /* 1st section - header */
-        
-        .header-section {
-            position: absolute;
-            top: 30%;
-            left: 35%;
-        }
-        
-        .header-section .container {
-            position: relative;
-        }
-        
-        #opening-text {
-            font-size: 28px;
-            color: white;
-            margin-left: 155px;
-            margin-bottom: 5px;
-        }
-        
-        #location {
-            color: rgb(222, 227, 228);
-            font-size: 21px;
-            line-height: 37.8px;
-            position: absolute;
-            margin-top: 20px;
-            margin-left: 60px;
-            white-space: nowrap;
-        }
-        
-        .typewriter {
-            color: white;
-            font-size: 55px;
-            font-weight: 500;
-            max-width: max-content;
-            overflow: hidden;
-            white-space: nowrap;
-        }
-        
-        .typing-erase {
-            animation: 3s typing-erase 3s steps(50, end) infinite, blink-caret .1s step-end infinite;
-            -webkit-animation: 3s typing-erase 3s steps(50, end) infinite, blink-caret .1s step-end infinite;
-        }
-        /* The type and erase effect */
-        
-        @keyframes typing-erase {
-            0% {
-                width: 0
-            }
-            80% {
-                width: 100%
-            }
-            90%,
-            100% {
-                width: 0
-            }
-        }
-        /* The typewriter cursor effect */
-        
-        @keyframes blink-caret {
-            from,
-            to {
-                border-color: white
-            }
-            50% {
-                border-color: gray
-            }
-        }
-        
-        .header-section .container button {
-            font-size: 17px;
-            color: #20C997;
-            font-weight: 500;
-            text-transform: capitalize;
-            background-color: transparent;
-            border: 2px solid #20C997;
-            border-width: 2px;
-            height: 55px;
-            width: 145px;
-            margin-top: 95px;
-            margin-left: 150px;
-            white-space: nowrap;
-            transition: all 0.5s ease;
-            cursor: pointer;
-            border-radius: 30%;
-        }
-        
-        .header-section .container button:hover {
-            color: white;
-            background-color: #20C997;
-        }
-        
-        .arrow-container {
-            margin-top: 155px;
-            margin-left: 210px;
-        }
-        /* 2nd section- about me */
-        
-        .about-me {
-            background-color: white;
-            height: 100vh;
-        }
-        
-        .about-me #container {
-            position: relative;
-        }
-        
-        .about-me #background {
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            z-index: -1;
-            overflow: hidden;
-            color: black;
-        }
+    }
+    
+    .header-section .container button {
+        font-size: 17px;
+        color: #20C997;
+        font-weight: 500;
+        text-transform: capitalize;
+        background-color: transparent;
+        border: 2px solid #20C997;
+        border-width: 2px;
+        height: 55px;
+        width: 145px;
+        margin-top: 95px;
+        margin-left: 150px;
+        white-space: nowrap;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        border-radius: 30%;
+    }
+    
+    .header-section .container button:hover {
+        color: white;
+        background-color: #20C997;
+    }
+    
+    .arrow-container {
+        margin: 155px 210px;
+    }
+    /* 2nd section- about me */
+    
+    .about-me {
+        background-color: white;
+        height: 100vh;
+        padding-top: 85px;
+    }
+    
+    .background-text {
+        font-size: 132px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 171.6px;
+        color: #9699992a;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .main-text {
+        color: rgb(33, 37, 41);
+        font-size: 36px;
+        font-weight: bolder;
+        text-align: center;
+        position: relative;
+        top: -7rem;
+        z-index: 2;
+        text-transform: capitalize;
+    }
+    
+    .main-text::after {
+        content: "";
+        width: 80px;
+        border-bottom: 3px solid #14c271;
+        background-color: #14c271;
+        position: absolute;
+        top: 52px;
+        left: 47.5%;
+    }
+    /*     
+    .about-me #container {
+        position: relative;
+    }
+    
+    .about-me #background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        overflow: hidden;
+        color: black;
+    } */
