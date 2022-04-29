@@ -388,3 +388,175 @@
         text-align: start;
         margin: 5px 0px;
     }
+    /* 4th Section - summary */
+    
+    .summary-section {
+        margin-top: 5rem;
+        height: 100vh;
+        padding-top: 25px;
+        padding-bottom: 90rem;
+        overflow: hidden;
+    }
+    
+    .summary-section .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        top: -5vh;
+        left: 5vh;
+    }
+    
+    .summary-items1 .item {
+        width: fit-content;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 20px;
+        border-radius: .25rem !important;
+        border: 1px solid #dee2e6 !important;
+    }
+    
+    .summary-items2 .item {
+        width: fit-content;
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: .25rem !important;
+        border: 1px solid #dee2e6 !important;
+    }
+    
+    .summary-items1 h2 {
+        color: #252b33;
+        font-size: 24px;
+        margin: 0px 0px 24px;
+        font-weight: bolder;
+    }
+    
+    .summary-items2 h2 {
+        color: #252b33;
+        font-size: 24px;
+        margin: 0px 0px 24px;
+        font-weight: bolder;
+    }
+    
+    #description-field {
+        width: 40vw;
+    }
+    
+    #date {
+        background-color: #20C997;
+        color: white;
+        font-size: 14px;
+        width: max-content;
+        padding: 2px 10px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+    
+    #main-field {
+        color: #252b33;
+        font-size: 21px;
+        line-height: 25.2px;
+        margin: 10px 0px;
+        font-weight: bold;
+    }
+    
+    #secondary-field {
+        color: #dc3545;
+        font-size: 16px;
+        line-height: 25.2px;
+        margin: 16px 0px;
+        font-weight: 400;
+    }
+    
+    #description-field {
+        color: #4c4d4d;
+        font-size: 16px;
+        line-height: 28.8px;
+        font-weight: 400;
+    }
+    
+    .my-skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: relative;
+        top: -5vh;
+        left: 18vh;
+    }
+    
+    .my-skills h2 {
+        color: #252b33;
+        font-size: 24px;
+        margin: 0px 0px 24px;
+        font-weight: bolder;
+    }
+    
+    .my-skills .item {
+        width: 43.3%;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 20px;
+        border-radius: .25rem !important;
+        position: relative;
+        top: 6vh;
+        left: -17vh;
+    }
+    
+    .my-skills .item h3 {
+        color: #212529;
+        font-size: 16px;
+        margin: 0px 0px 8px;
+        font-weight: 500;
+    }
+    
+    .my-skills .main-field {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .my-skills .main-field p {
+        color: #212529;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    progress {
+        background-color: #1d5ea018;
+        height: 1vh;
+        width: 40vw;
+        border: none;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    
+    progress::-moz-progress-bar {
+        background-color: #20C997 !important;
+    }
+    
+    .summary-section button {
+        margin-top: 1rem;
+        position: relative;
+        left: 44%;
+        border: none;
+        border-radius: 25px;
+        border: 2px solid #6C757D;
+        width: 11.5rem;
+        height: 3rem;
+        padding: 5px 25px;
+        background-color: transparent;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+    
+    .summary-section button span {
+        font-size: 16px;
+        text-align: center;
+        color: #a6afb8;
+        padding-right: 5px;
+    }
+    
+    .summary-section button:hover {
+        color: white;
+        background-color: #6C757D;
+    }
