@@ -17,3 +17,4 @@ Problems I faced during making the projects:
 - (Fixed overflow in 1st section) solution => overflow-hidden
 - (Download certain folder from repo) solution => <https://downgit.github.io/#/home>
 - (Button lookalike bootstrap in css) solution => <https://html.form.guide/snippets/css-button-rounded-corners/>
+- (Change progress bar color) solution => <https://stackoverflow.com/questions/18368202/how-can-i-set-the-color-for-the-progress-element>
