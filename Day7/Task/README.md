@@ -21,3 +21,4 @@ Problems I faced during making the projects:
 - (Padding for underline link) solution => <https://stackoverflow.com/questions/8037777/how-make-text-decoration-underline-with-2px-padding>
 - (Pick child of parent) solution => <https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_nth-child>
 - (Add stars) solution => <https://www.w3schools.com/howto/howto_css_star_rating.asp>
+- (Text-area resize vertically only) solution => <https://stackoverflow.com/questions/25567707/textarea-disable-resize-on-x-or-y>

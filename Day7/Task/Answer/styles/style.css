@@ -668,7 +668,7 @@
             margin-top: 5rem;
             height: 100vh;
             padding-top: 25px;
-            padding-bottom: 90rem;
+            padding-bottom: 10rem;
             overflow: hidden;
         }
         
@@ -768,15 +768,174 @@
         /* 7th Section - contact */
         
         .contact {
-            margin-top: 5rem;
-            height: 100vh;
+            height: 95vh;
             padding-top: 25px;
-            padding-bottom: 90rem;
+            background-color: #F8F9FA;
             overflow: hidden;
+        }
+        
+        .contact .container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .contact-col1 {
+            margin-right: 10rem;
+            align-self: flex-start;
+        }
+        
+        .contact-col1 .address-details h2 {
+            color: #252b33;
+            font-size: 21px;
+            line-height: 25.2px;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .contact-col1 .address-details p {
+            color: #4c4d4d;
+            width: 11.5rem;
+            font-weight: 400;
+            line-height: 28.8px;
+            margin-top: 10px;
+            margin-bottom: 24px;
+        }
+        
+        .contact-details {
+            padding-right: 10px;
+            color: #12b181;
+        }
+        
+        .contact-details p {
+            color: #4c4d4d;
+            font-weight: 400;
+            line-height: 28.8px;
+            margin-bottom: 10px;
+        }
+        
+        .social-media {
+            margin-top: 1rem;
+        }
+        
+        .social-media h2 {
+            align-self: flex-start;
+            color: #252b33;
+            font-size: 21px;
+            line-height: 25.2px;
+            font-weight: 500;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .social-media i {
+            padding-left: 10px;
+            cursor: pointer;
+        }
+        
+        .contact-col2 {
+            align-self: flex-start;
+            width: 60vw;
+        }
+        
+        .contact-col2 h2 {
+            align-self: flex-start;
+            color: #252b33;
+            margin-bottom: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        
+        .form-col1 input {
+            margin-bottom: 20px;
+            margin-right: 1rem;
+            padding: 0.7rem 9rem 0.7rem 1rem;
+            border: none;
+            border: 1px solid #dee2e6 !important;
+            border-radius: 5px;
+            color: #252b33;
+            font-size: 14.5px;
+        }
+        
+        .message textarea {
+            margin-bottom: 20px;
+            margin-right: 1rem;
+            padding: 0.7rem 29rem 0rem 1rem;
+            border: none;
+            border: 1px solid #dee2e6 !important;
+            border-radius: 5px;
+            color: #252b33;
+            font-size: 14.5px;
+            height: 10rem;
+            resize: vertical;
+        }
+        
+        form button {
+            font-weight: 900;
+            height: 7vh;
+            padding: 0.6em 2.2em;
+            font-size: 1em;
+            border-radius: 20px;
+            border: none;
+            background-color: #12b181;
+            border-color: #20c997;
+            color: white;
+            cursor: pointer;
+            transition: box-shadow 0.5s ease;
+            margin-left: 40%;
+        }
+        
+        form button:hover {
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
         }
         /* 8th Section - copyrights */
         
-        .copyrights {}
+        .copyrights {
+            height: 22vh;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .copyrights .container {
+            padding: 3rem;
+        }
+        
+        .copyrights .container p {
+            position: absolute;
+            left: 20px;
+            padding-left: 7rem;
+            color: #252b33;
+            line-height: 28.8px;
+            font-weight: 400;
+        }
+        
+        .copyrights .container p a {
+            color: #20C997
+        }
+        
+        .copyrights .container p a:hover {
+            color: #12b181
+        }
+        
+        .copyrights .container .links {
+            display: inline-block;
+            position: absolute;
+            right: 100px;
+        }
+        
+        #link {
+            padding-right: 2rem;
+            color: #252b33;
+            line-height: 28.8px;
+            font-weight: 400;
+        }
+        
+        #link:hover {
+            color: #12b181
+        }
         /* 9th Section - fixed-button  */
         
         .button-fixed button {
