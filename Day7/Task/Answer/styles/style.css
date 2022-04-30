@@ -671,6 +671,100 @@
             padding-bottom: 90rem;
             overflow: hidden;
         }
+        
+        .testimonial .container {
+            display: flex;
+            padding: 0px 10px;
+        }
+        
+        .testimonial .container .card {
+            display: flex;
+            flex-flow: row wrap;
+            width: 650px;
+            height: 330px;
+            margin-left: 4rem;
+            padding-left: 30px;
+            padding-bottom: 30px;
+            padding-top: 50px;
+            background-color: #F8F9FA;
+        }
+        
+        .testimonial .container .card img {
+            border-radius: 50%;
+            padding: 0px 10px;
+        }
+        
+        .card-credentials {
+            margin-top: 5px;
+        }
+        
+        .card-credentials h3 {
+            color: #212529;
+            font-weight: 600;
+        }
+        
+        .card-credentials p {
+            color: #6c757d;
+            font-weight: 500;
+        }
+        
+        .card-description p {
+            padding: 10px 20px 20px 15px;
+            width: 35vw;
+            color: #212529;
+            line-height: 28.8px;
+            font-weight: 500;
+        }
+        
+        .stars {
+            padding: 10px 20px 20px 15px;
+        }
+        
+        .checked {
+            color: orange;
+        }
+        
+        .testimonial .buttons {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+        .testimonial .buttons button {
+            margin-right: 5px;
+            border-radius: 50%;
+            width: 22px;
+            height: 22px;
+            border: none;
+            background-color: white;
+            cursor: pointer;
+            transition: border 0.3s ease-in;
+        }
+        
+        .testimonial .buttons button {
+            margin-right: 5px;
+            border-radius: 50%;
+            width: 22px;
+            height: 22px;
+            border: none;
+            background-color: white;
+            cursor: pointer;
+            transition: border 0.3s ease-in;
+        }
+        
+        .testimonial .buttons button:hover {
+            border: 2px solid;
+        }
+        
+        .testimonial .buttons button p {
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            border: none;
+            background-color: #12b181;
+            margin: 0px auto;
+        }
         /* 7th Section - contact */
         
         .contact {
@@ -683,6 +777,7 @@
         /* 8th Section - copyrights */
         
         .copyrights {}
+        /* 9th Section - fixed-button  */
         
         .button-fixed button {
             position: fixed;
