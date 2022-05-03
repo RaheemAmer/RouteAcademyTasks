@@ -1,5 +1,5 @@
 # RouteAcademyTasks
-
+A repo where I will document my tasks during my apprenticeship at Route academy 
 Days | Completed | Notes
 ------------ | ------------- | -------------
 👉 Day1 | ✅ Day1 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day1)
