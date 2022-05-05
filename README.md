@@ -10,5 +10,5 @@ Days | Completed | Notes
 👉 Day6 | ✅ Day6 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day6)
 👉 Day7 | ✅ Day7 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day7)
 👉 Day8 | ✅ Day8 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day8)
-👉 Day8 | ✅ Day8 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Exam)
+👉 Exam | ✅ Exam | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Exam)
 
