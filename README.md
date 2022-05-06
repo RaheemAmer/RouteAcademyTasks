@@ -2,13 +2,13 @@
 A repo where I will document my tasks during my apprenticeship at Route academy 
 Days | Completed | Notes
 ------------ | ------------- | -------------
-👉 Day1 | ✅ Day1 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day1)
-👉 Day2 | ✅ Day2 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day2)
-👉 Day3 | ✅ Day3 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day3)
-👉 Day4 | ✅ Day4 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day4)
-👉 Day5 | ✅ Day5 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day5)
-👉 Day6 | ✅ Day6 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day6)
-👉 Day7 | ✅ Day7 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day7)
-👉 Day8 | ✅ Day8 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day8)
-👉 Exam | ✅ Exam | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Exam)
+👉 Day1 - HTML | ✅ Day1 - HTML | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day1)
+👉 Day2 - HTML | ✅ Day2 - HTML | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day2)
+👉 Day3 - HTML & CSS | ✅ Day3 - HTML & CSS | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day3)
+👉 Day4 - HTML & CSS | ✅ Day4 - HTML & CSS | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day4)
+👉 Day5 - HTML & CSS | ✅ Day5 - HTML & CSS | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day5)
+👉 Day6 - HTML & CSS | ✅ Day6 - HTML & CSS | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day6)
+👉 Day7 - HTML & CSS | ✅ Day7 - HTML & CSS | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day7)
+👉 Day8 - Bootstrap | ✅ Day8 - Bootstrap | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day8)
+👉 Exam - Bootstrap | ✅ Exam - Bootstrap | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Exam)
 
