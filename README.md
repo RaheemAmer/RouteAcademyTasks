@@ -12,3 +12,7 @@ Days | Completed | Notes
 👉 Day8 - Bootstrap | ✅ Day8 - Bootstrap | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day8)
 👉 Exam - Bootstrap | ✅ Exam - Bootstrap | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Exam)
 
+# Team Tasks
+Days | Completed | Notes
+------------ | ------------- | -------------
+👉 Task1 | ✅ Task1 | ⭕️ [Notes](https://github.com/RaheemAmer/Blood-Bank-Management-Project/blob/main/Task1.md)
