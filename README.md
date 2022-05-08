@@ -11,6 +11,7 @@ Days | Completed | Notes
 👉 Day7 - HTML & CSS | ✅ Day7 - HTML & CSS | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day7)
 👉 Day8 - Bootstrap | ✅ Day8 - Bootstrap | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day8)
 👉 Exam - Bootstrap | ✅ Exam - Bootstrap | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Exam)
+👉 Day9 - Javascript | ✅ Day9 - Javascript | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/blob/main/Day9)
 
 # Team Tasks
 Days | Completed | Notes
