@@ -1,4 +1,4 @@
-s# Day9 - javascript notes
+# Day9 - javascript notes
 
 - recent job searches
 
