@@ -2,7 +2,7 @@
 
 - recent job searches
 
-# job - titles
+## job-titles
 
 - ui developer
 - frontend developer
@@ -14,7 +14,7 @@ w3c - ieee - ecma script
 
 es5 => best feature
 
-# javascript
+## javascript
 
 <!-- 
 internal; - external - inline
@@ -71,6 +71,5 @@ var x = number("bl7") => nan
 var x = number(bl7) => nan
 var x = 4 + undefined => nan
 var x = 4 + null =>  
-
 
  -->
