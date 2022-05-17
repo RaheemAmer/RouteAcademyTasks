@@ -16,7 +16,7 @@ es5 => best feature
 
 ## javascript
 
-<!-- 
+
 internal; - external - inline
 <script src="></script>
 <button onclick="window.alert("text)> </button>
@@ -72,4 +72,4 @@ var x = number(bl7) => nan
 var x = 4 + undefined => nan
 var x = 4 + null =>  
 
- -->
+
