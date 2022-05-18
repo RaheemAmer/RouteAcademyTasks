@@ -1,0 +1,70 @@
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 100px auto;
+}
+
+header::after {
+    content: " |";
+    animation: typing 2s infinite alternate-reverse;
+}
+
+@keyframes typing {
+    10% {
+        content: " a  |";
+    }
+    15% {
+        content: " am |";
+    }
+    20% {
+        content: " am a |";
+    }
+    25% {
+        content: " am a F |";
+    }
+    30% {
+        content: " am a Fr |";
+    }
+    35% {
+        content: " am a Fro |";
+    }
+    40% {
+        content: " am a Fron |";
+    }
+    45% {
+        content: " am a Front |";
+    }
+    50% {
+        content: " am a Fronte |";
+    }
+    55% {
+        content: " am a Fronten |";
+    }
+    60% {
+        content: " am a Frontend D |";
+    }
+    65% {
+        content: " am a Frontend De |";
+    }
+    70% {
+        content: " am a Frontend Dev |";
+    }
+    75% {
+        content: " am a Frontend Deve |";
+    }
+    80% {
+        content: " am a Frontend Devel |";
+    }
+    85% {
+        content: " am a Frontend Develo |";
+    }
+    90% {
+        content: " am a Frontend Develop |";
+    }
+    95% {
+        content: " am a Frontend Develope |";
+    }
+    100% {
+        content: " am a Frontend Developer |";
+    }
+}
