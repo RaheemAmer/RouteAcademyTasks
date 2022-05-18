@@ -1,5 +1,6 @@
 # CSS Notes
 
+- Making top-50 or making it start from half means starts after half ratio => ```top:50; right:50; transform:translate(-50%,-50%);```
 - giving position always screw up the width, we fix this by giving ```width:100% || left:0; right:0;``` also give ```z-index:1000;``` as a precaution
 - Order default value => 0 (least value is highest priority
 - Flex-grow = ورث
@@ -10,7 +11,10 @@
 - calculate the space in flex by adding values of flex-grow and divide them by the remaining space
 - if we didn't give any flex-grow, default value is basically zero, so remaining width is stored in the parent
 - Use animation with keyframes for animated stuff[animation-name/duration/iteration-count/direction/from or 0%/ to or 100%]
-- Making top-50 or making it start from half means starts after half ratio => ```top:50; right:50; transform:translate(-50%,-50%);```
+- Flat design is more trendy[text or box shadow] - [horizontal - vertical - blur or intensity of shadow - color ]
+- Linear-gradient(deg, red, blue) - making gradient decrease as you scroll down
+- Radial-gradient(deg, red, blue) - percentage of each color
+- CSS3 has a major problem with browsers => (Prefix)
 
 ## Bootstrap Notes
 
