@@ -15,6 +15,7 @@
 - Linear-gradient(deg, red, blue) - making gradient decrease as you scroll down
 - Radial-gradient(deg, red, blue) - percentage of each color
 - CSS3 has a major problem with browsers => (Prefix)
+- We Use CSS-Prefixer to handle and problem with browsers compatibility
 
 ## Bootstrap Notes
 
