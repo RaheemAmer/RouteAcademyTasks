@@ -9,6 +9,7 @@
 - Flex-shrink doesn't accept negative number
 - calculate the space in flex by adding values of flex-grow and divide them by the remaining space
 - if we didn't give any flex-grow, default value is basically zero, so remaining width is stored in the parent
+- Making top-50 or making it start from half means starts after half ratio => ```top:50; right:50; transform:translate(-50%,-50%);```
 
 ## Bootstrap Notes
 
@@ -16,3 +17,43 @@
 - Everything are inside bootstrap.css and min.css, main difference is that min is compressed
 - Reboot is all about normalizing the css files while also ensuring not affecting whole layout
 - Caching - using cdn is not a good practice if it has sensitive data - must have internet connection  (for css you can use cdn unless you're aiming for offline uses but for) (JS - not recommended)
+- Instead of using top, right and translate => We use in bootstrap ```translate-middle-y || top-50 or top-50 ||
+right-50  || translate-middle```
+
+Where property is one of:
+
+<code>
+    m - for classes that set margin
+    p - for classes that set padding
+</code>
+
+Where sides names is one of:
+
+<code>
+    s - for classes that set start with
+    e - for classes that set end with
+</code>
+
+Where sides is one of:
+
+<code>
+    t - for classes that set margin-top or padding-top
+    b - for classes that set margin-bottom or padding-bottom
+    l - for classes that set margin-left or padding-left
+    r - for classes that set margin-right or padding-right
+    x - for classes that set both *-left and*-right
+    y - for classes that set both *-top and*-bottom
+    blank - for classes that set a margin or padding on all 4 sides of the element
+</code>
+
+Where size is one of:
+
+<code>
+    0 - for classes that eliminate the margin or padding by setting it to 0
+    1 - (by default) for classes that set the margin or padding to $spacer * .25
+    2 - (by default) for classes that set the margin or padding to $spacer * .5
+    3 - (by default) for classes that set the margin or padding to $spacer
+    4 - (by default) for classes that set the margin or padding to $spacer * 1.5
+    5 - (by default) for classes that set the margin or padding to $spacer * 3
+    auto - for classes that set the margin to auto
+</code>
