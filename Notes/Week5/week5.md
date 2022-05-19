@@ -25,6 +25,10 @@ dd# CSS Notes
 - If you want to remove the space that's happened because of the parents(col-xl) padding (left and right), we use gutter for the main parent gx-0[1,2,3,4] or gy-0
 - If I gave only one dimensions in the class in bootstrap while others have it all
 - mt-3 => margin-top=3
+- col-xs is automatically 100%
+- divide it to an odd number, make a simple col class, auto detect number of divs and divide it(flex-grow)
+- writing col only obligates that each div is divided equally on all screens, if i wrote col-lg then xxl,xl and lg works till it's smaller then divided
+- font awesome docs- scalable, fa-fw(fixed-width),  fa-10x, fa-rotate90, fa-heart fa-beat, fa-spinner fa-spin, fa-shake, fa-bounce
 
 Example:
 
