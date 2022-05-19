@@ -1,4 +1,4 @@
-dd# CSS Notes
+# CSS Notes
 
 - ```:root``` is to make variable global, more specified and has better priority than declaring them in html
 - there are some tags that behave like body, so declaring them in body won't be global

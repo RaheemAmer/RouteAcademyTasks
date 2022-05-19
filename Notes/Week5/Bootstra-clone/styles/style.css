@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: url(../assets/images/background.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.icon {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    /* border: 1px solid white; */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.text-mine {
+    color: royalblue;
+}
+
+.bg-mine {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
