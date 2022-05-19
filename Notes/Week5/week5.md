@@ -1,4 +1,4 @@
-# CSS Notes
+dd# CSS Notes
 
 - ```:root``` is to make variable global, more specified and has better priority than declaring them in html
 - there are some tags that behave like body, so declaring them in body won't be global
@@ -11,7 +11,10 @@
 - making```parent + p``` means the first p after parent
 - semantic tag, seo doesn't see css, any name that has meaning is semantic
 - Bootstrap Grid-system => instead of using width 100% we use 12 columns, works using flexbox
-- In bootstrap we make row as the parent, and make it have d-flex
+- In bootstrap we make row as the parent, and it's default value starts with d-flex
+- Container in bootstrap has width less than 100% with margin-auto
+
+Example:
 
 ```<code>
 <header>
@@ -24,4 +27,22 @@
 <figcaption></figcaption>
 </figure>
 <footer></footer>
+</code>```
+
+Example:
+```<code>
+<!-- width,100%, margin:auto and other stuff-->
+<!-- if you a container with no margin, use container-fluid -->
+<div class="container">
+<!-- 3 cols from 12, applied only on xl screen -->
+<!-- instead of using media queries for each resolution and dividing the width on it, we use bootstrap breakpoints -->
+    <div class="col-xl-3 col-lg-4 col-md--6 col-sm-12>
+        <!-- display flew parent and other stuff -->
+        <div class="row>
+            <img src="" class="w-100">
+            <h4>Test</h4>
+         <p>Loremakjsdbasdga;uidasod</p>
+      </div>
+    </div>
+</div>
 </code>```
