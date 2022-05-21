@@ -40,3 +40,15 @@ header {
     background-color: rgba(255, 255, 255, 0.2);
     cursor: pointer;
 }
+
+.services .title h2 {
+    color: #222;
+}
+
+.services .title h3 {
+    color: #fff;
+}
+
+.services .container .row .col-md-4 .icon {
+    width: 10px;
+}
