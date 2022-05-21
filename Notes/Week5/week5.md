@@ -29,6 +29,7 @@
 - divide it to an odd number, make a simple col class, auto detect number of divs and divide it(flex-grow)
 - writing col only obligates that each div is divided equally on all screens, if i wrote col-lg then xxl,xl and lg works till it's smaller then divided
 - font awesome docs- scalable, fa-fw(fixed-width),  fa-10x, fa-rotate90, fa-heart fa-beat, fa-spinner fa-spin, fa-shake, fa-bounce
+- give image in navbar fixed width, it will work fine in any media
 
 Example:
 
