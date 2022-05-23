@@ -11,3 +11,38 @@
 - ES1, ES2 and ES3 all of them work on any browser, ES5 is semi-safe for browser compatibility, [ES-is-called-for-any-version-after-2015][Before-2015-the-market-calls-it-javaScript]
 - there was many languages attempted to act as an alternative to javaScript such as [coffeeScript-dart]
 - Microsoft made a language called typescript = javascript with features
+- We write script in the last-line, works line by line which makes javasScript is implemented before entering the html, seo is better and performance
+- ```document.getElementById('test').innerHTML="test"```
+- ```window.alert("hello js")```
+- ```console.log("hello js")```
+- JavaScript has something called ```Auto Semi Colon Insertion```, semi-colon differs each line from another, minify also javaScript
+- Javascript-Variables => ```var userName = 'Raheem';``` this is called declaring(Declaration) with an assigning value(Assignment)
+- Naming variables, doesn't start with number or special characters($, _ are only allowed), have space, [camelCase]
+- Test type of variables using method(typeOf), ```var x;``` type of x is undefined
+- both null and undefined have no value
+- check typeOf null=> [object] (Read-more-about-it)
+- Js is a loosely typed and dynamic language
+
+## loosely typed vs strongly typed
+
+- Doesn't obligate you to declare the type of variable, it's known from it's value
+
+## dynamic language
+
+- Allows you to change data-type even after decalring and assigning a value
+
+## Primitive Data Types are
+
+- [string][(anything between quote)]
+- [null]
+- [undefined]
+- [number]
+- [big-int]
+- [symbol]
+- [boolean]
+
+## Non - Primitive Data Types are
+
+- [object]
+- [(linear)=>(static(array), dynamic(linked-list, stack, queue))]
+- [(Non-linear)=>(tree, graph)]
