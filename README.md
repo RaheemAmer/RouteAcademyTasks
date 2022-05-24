@@ -17,3 +17,4 @@ Days | Completed | Notes
 Days | Completed | Notes
 ------------ | ------------- | -------------
 👉 Task1 | ✅ Task1 | ⭕️ [Notes](https://github.com/RaheemAmer/Blood-Bank-Management-Project/blob/main/Task1.md)
+👉 Task2 | ✅ Task2 | ⭕️ [Notes](https://github.com/RaheemAmer/Blood-Bank-Management-Project/blob/main/Task2.md)
