@@ -18,3 +18,10 @@ Days | Completed | Notes
 ------------ | ------------- | -------------
 👉 Task1 | ✅ Task1 | ⭕️ [Notes](https://github.com/RaheemAmer/Blood-Bank-Management-Project/blob/main/Task1.md)
 👉 Task2 | ✅ Task2 | ⭕️ [Notes](https://github.com/RaheemAmer/Blood-Bank-Management-Project/blob/main/Task2.md)
+
+# Notes
+Week | Completed | Notes
+------------ | ------------- | -------------
+👉 Week4 | ✅ Week4 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/tree/main/Notes/Week4)
+👉 Week5 | ✅ Week5 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/tree/main/Notes/Week5)
+👉 Week6 | ✅ Week6 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/tree/main/Notes/Week6)
