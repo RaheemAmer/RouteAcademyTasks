@@ -38,18 +38,31 @@ also => console.log(name); instead of console.log(user.name);
 
 <hr>
 
-#### 2. Es6 Destructuring Arrays:
-- Instead of building a complicated way for i/o operations, we can use destructuring to make the code less and more efficient
-- You can't declare two objects with same name, it will cause a duplication erroor
+#### 3. Es6 New Array Methods (filter, map, reduce):
+##### Standard Way
 <pre>
-let user = {
-name: "Raheem Amer",
-age: 24
+let nums = [10, 20, 30, 40, 50, 60, 70, 80];
+let results = [];
+for (i=0; i < nums.length;i++){
+    if (nums[i]>30){
+    results.push(nums[i]);
+    }
 }
-
-instead we use this => let [name, age] = user;
-
-that's the cooler version of  => let name = user.name;
-
-also => console.log(name); instead of console.log(user.name);
+console.log(results);
 </pre>
+
+<hr>
+
+##### Standard Way 
+<pre>
+let nums = [10, 20, 30, 40, 50, 60, 70, 80];
+let results = [];
+for (i=0; i < nums.length;i++){
+    if (nums[i]>30){
+    results.push(nums[i]);
+    }
+}
+console.log(results);
+</pre>
+- Filter => Takes an array and sort it according to my conditions [return array with less number of indexes and values than the original]
+
