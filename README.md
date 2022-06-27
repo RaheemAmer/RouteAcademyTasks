@@ -25,3 +25,10 @@ Week | Completed | Notes
 👉 Week4 | ✅ Week4 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/tree/main/Notes/Week4)
 👉 Week5 | ✅ Week5 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/tree/main/Notes/Week5)
 👉 Week6 | ✅ Week6 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/tree/main/Notes/Week6)
+
+# React Notes
+Week | Completed | Notes
+------------ | ------------- | -------------
+👉 Week1 | ✅ Week1 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/tree/main/Notes/React1)
+👉 Week2 | ✅ Week2 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/tree/main/Notes/React2)
+👉 Week3 | ✅ Week3 | ⭕️ [Notes](https://github.com/RaheemAmer/RouteAcademyTasks/tree/main/Notes/React3)
